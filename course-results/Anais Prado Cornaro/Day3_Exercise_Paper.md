@@ -25,8 +25,8 @@ They define the CNV size as > 50pbs (and < 3Mbp) (smaller than 50bp that and the
 - The filtering was done to remove false positives (as CNVs that appear in a large number of samples are not likely to be a false positive) and artifacts,  (as the filetr could exclude study-specific artefacts absed on number of studies), to ensure robust, reproducible CNV regions.
 
 # Q5
-- threshholds in stringency level 1: at least one subject and one study a
-- threshholds in stringency level 2: t least two subjects and one study for each variant 
+- threshholds in stringency level 1: at least one subject and one study 
+- threshholds in stringency level 2: at least two subjects and one study for each variant 
 - threshholds in stringency level 12: at least two subjects and two studies
 
 
