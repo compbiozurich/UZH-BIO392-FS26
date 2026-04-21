@@ -1,0 +1,22 @@
+##Exercise 4
+frequency_url = {"small_cell_carcinoma": "https://progenetix.org/services/intervalFrequencies/?output=pgxseg&filters=pgx:icdom-80413"}
+
+frequency_tables = {}
+
+for source_query, url in frequency_url.items():
+    print(f"Downloading frequency table for {source_query}")
+    response = requests.get(url, timeout=120)
+    response.raise_for_status()
+    df_freq = pd.read_csv(StringIO(response.text), sep="\t", comment="#")
+    df_freq["source_query"] = source_query
+    frequency_tables[source_query] = df_freq
+
+df_freq.shape
+
+df_freq.columns
+
+frequency_tables["small_cell_carcinoma"].head()
+
+- sample table: one row represents 1 taken sample
+- frequency table: one row represents a certain CNV intervall 
+- they carry information at different levels (freqency table at CNV level and sample table at sample level), so they can't be simply merged
