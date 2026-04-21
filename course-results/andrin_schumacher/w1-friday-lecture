@@ -1,0 +1,11 @@
+HBA1-HBA2
+protein-seq: Identity: 52.9%; Similarity: 60.3%
+DNA-seq: Identity = Similarity: 96.5%
+
+HBA1-HBB
+protein-seq: Identity: 33.3%; Similarity: 46.9%
+DNA-seq: Identity = Similarity: 55.1%
+
+HBA2-HBB
+protein-seq: Identity: 31.8%; Similarity: 46.1%
+DNA-seq: Identity = Similarity: 54.4%
