@@ -1,0 +1,51 @@
+########################################
+# Program: stretcher
+# Rundate: Mon 20 Apr 2026 12:03:15
+# Commandline: stretcher
+#    -auto
+#    -stdout
+#    -asequence emboss_stretcher-I20260420-120257-0009-13916897-p2m.asequence
+#    -bsequence emboss_stretcher-I20260420-120257-0009-13916897-p2m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 12
+#    -gapextend 2
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HBA
+# 2: HBB
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 149
+# Identity:      65/149 (43.6%)
+# Similarity:    90/149 (60.4%)
+# Gaps:           9/149 ( 6.0%)
+# Score: 277
+# 
+#
+#=======================================
+
+HBA                1 MV-LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-D     48
+                     || |:|.:|:.|.|.||||  :..|.|.|||.|:.:.:|.|:.:|..| |
+HBB                1 MVHLTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGD     48
+
+HBA               49 LSH-----GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLR     93
+                     ||.     |:.:||.|||||..|.::.:||:|::....:.||:||..||.
+HBB               49 LSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLH     98
+
+HBA               94 VDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR    142
+                     |||.||:||.:.|:..||.|...||||.|.|:..|.:|.|:..|..||.
+HBB               99 VDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH    147
+
+
+#---------------------------------------
+#---------------------------------------
