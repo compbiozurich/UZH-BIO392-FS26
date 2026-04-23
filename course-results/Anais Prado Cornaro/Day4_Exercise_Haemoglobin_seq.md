@@ -43,7 +43,10 @@ We can clearly see that the length of HBA1 & HBA2 are almost equal! However, HBB
 
 # Mus Musculus
 
+## Protein level
+
+
+## DNA level
 __There are sooo many HBA & HBB genes is mus musculus, which do I use?????????!!!!!!!!!!!!!!!!!!__
 https://www.ncbi.nlm.nih.gov/gene/3043/#genomic-regions-transcripts-products
 https://www.ebi.ac.uk/jdispatcher/psa/emboss_stretcher
-
