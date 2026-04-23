@@ -1,0 +1,51 @@
+########################################
+# Program: stretcher
+# Rundate: Mon 20 Apr 2026 12:29:58
+# Commandline: stretcher
+#    -auto
+#    -stdout
+#    -asequence emboss_stretcher-I20260420-122928-0669-16465703-p1m.asequence
+#    -bsequence emboss_stretcher-I20260420-122928-0669-16465703-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 12
+#    -gapextend 2
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HBA_MOUSE
+# 2: HBB1_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 149
+# Identity:      63/149 (42.3%)
+# Similarity:    85/149 (57.0%)
+# Gaps:           9/149 ( 6.0%)
+# Score: 274
+# 
+#
+#=======================================
+
+HBA_MOUSE          1 MV-LSGEDKSNIKAAWGKIGGHGAEYGAEALERMFASFPTTKTYFPHF-D     48
+                     || |:..:|:.:...|||:...  |.|.|||.|:...:|.|:.||..| |
+HBB1_MOUSE         1 MVHLTDAEKAAVSCLWGKVNSD--EVGGEALGRLLVVYPWTQRYFDSFGD     48
+
+HBA_MOUSE         49 VSH-----GSAQVKGHGKKVADALASAAGHLDDLPGALSALSDLHAHKLR     93
+                     :|.     |:|:||.|||||..|......|||.|.|..::||:||..||.
+HBB1_MOUSE        49 LSSASAIMGNAKVKAHGKKVITAFNDGLNHLDSLKGTFASLSELHCDKLH     98
+
+HBA_MOUSE         94 VDPVNFKLLSHCLLVTLASHHPADFTPAVHASLDKFLASVSTVLTSKYR    142
+                     |||.||:||.:.:::.|..|...|||||..|:..|.:|.|:|.|..||.
+HBB1_MOUSE        99 VDPENFRLLGNMIVIVLGHHLGKDFTPAAQAAFQKVVAGVATALAHKYH    147
+
+
+#---------------------------------------
+#---------------------------------------

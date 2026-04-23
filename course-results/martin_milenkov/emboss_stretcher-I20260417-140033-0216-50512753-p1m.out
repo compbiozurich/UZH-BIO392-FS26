@@ -1,0 +1,43 @@
+########################################
+# Program: stretcher
+# Rundate: Fri 17 Apr 2026 14:00:42
+# Commandline: stretcher
+#    -auto
+#    -stdout
+#    -asequence emboss_stretcher-I20260417-140033-0216-50512753-p1m.asequence
+#    -bsequence emboss_stretcher-I20260417-140033-0216-50512753-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 12
+#    -gapextend 2
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EBLOSUM62
+# Gap_penalty: 12
+# Extend_penalty: 2
+#
+# Length: 14
+# Identity:      11/14 (78.6%)
+# Similarity:    11/14 (78.6%)
+# Gaps:           3/14 (21.4%)
+# Score: 44
+# 
+#
+#=======================================
+
+EMBOSS_001         1 THISISASEQENCE     14
+                     ||||   |||||||
+EMBOSS_001         1 THIS---SEQENCE     11
+
+
+#---------------------------------------
+#---------------------------------------

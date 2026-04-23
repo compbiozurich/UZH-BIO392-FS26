@@ -1,0 +1,451 @@
+########################################
+# Program: stretcher
+# Rundate: Mon 20 Apr 2026 11:55:16
+# Commandline: stretcher
+#    -auto
+#    -stdout
+#    -asequence emboss_stretcher-I20260420-115511-0892-53570632-p1m.asequence
+#    -bsequence emboss_stretcher-I20260420-115511-0892-53570632-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 16
+#    -gapextend 4
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HBA1
+# 2: HBB
+# Matrix: EDNAFULL
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 5133
+# Identity:    1383/5133 (26.9%)
+# Similarity:  1383/5133 (26.9%)
+# Gaps:        3091/5133 (60.2%)
+# Score: -10749
+# 
+#
+#=======================================
+
+HBA1               1 -GACTA---------------------------TCGCCA-----------     11
+                      |||||                           |.|.||           
+HBB                1 AGACTAAACAGTAGAGCATGTATAAAAATACTCTAGTCAAGTGCTGCTTT     50
+
+HBA1              12 -GAGGGAAAGG----------------------GAGC-------------     25
+                      ||...|||.|                      |||.             
+HBB               51 TGAAACAAATGATAAAACCACACTCCCATAGATGAGTGTCATGATTTTCA    100
+
+HBA1              26 TGCAGGAAG-----------------------------CGAGG-------     39
+                     ||.||||||                             |.|||       
+HBB              101 TGGAGGAAGTTAATATTCATCCTCTAAGTATACCCAGACTAGGGCCATTC    150
+
+HBA1              40 -------------------------------------CTGGAGAGCAGGA     52
+                                                          ||||||...||||
+HBB              151 TGATATAAAACATTAGGACTTAAGAAAGATTAATAGACTGGAGTAAAGGA    200
+
+HBA1              53 ---GGGGCTCTG-------CGCAGAAATTCTTTTGAGTTCCTATGGGCCA     92
+                        ||..|||||       |||.|....|.|||||||..|.|.||.|...
+HBB              201 AATGGACCTCTGTCTCTCTCGCTGTCTCTTTTTTGAGGACTTGTGTGTGT    250
+
+HBA1              93 GGGCGTCCGGGTGCGCGCAT--------TCCTCTCCGCCCCAGGATTGGG    134
+                     |.|.||..|.|||.|.|..|        |..||...|...|.|||.|...
+HBB              251 GTGTGTGTGTGTGTGTGTGTGTGTGTTGTGGTCAGTGGGGCTGGAATAAA    300
+
+HBA1             135 CGAAG------CCTCCC--------GGCTCGCACTC--------------    156
+                     .|.||      |||.|.        |||...||.||              
+HBB              301 AGTAGAATAGACCTGCACCTGCTGTGGCATCCATTCACAGAGTAGAAGCA    350
+
+HBA1             157 -GCTCGC--------------CCGT-----------GTGTTCCCCGATCC    180
+                      ||||.|              |.||           ||.||.|..||.|.
+HBB              351 AGCTCACAATAGTGAAGATGTCAGTAAGCTTGAATAGTTTTTCAGGAACT    400
+
+HBA1             181 C-----GCTGGAGTCGAT-----------GCGC-GTCCA-----------    202
+                     .     ||||...|.|||           ||.| |.|||           
+HBB              401 TTGAATGCTGATTTAGATTTGAAACTGAGGCTCTGACCATAACCAAATTT    450
+
+HBA1             203 GC----------------------------GCGTGCCAGGCCGGGGC---    221
+                     ||                            ||.||..|.|||.||||   
+HBB              451 GCACTATTTATTGCTTCTTGAAACTTATTTGCCTGGTATGCCTGGGCTTT    500
+
+HBA1             222 -GGGGGT---------GCGGGCTGACTT----------------------    239
+                      |..|||         ||..||.|.|||                      
+HBB              501 TGATGGTCTTAGTATAGCTTGCAGCCTTGTCCCTGCAGGGTATTATGGGT    550
+
+HBA1             240 --------------TCTCCCT----CGCTAGGGACGCTCCGGCGCC-CGA    270
+                                   |||.|.|    |.||||..||.||..|...|. |.|
+HBB              551 AATAGAAAGAAAAGTCTGCGTTACACTCTAGTCACACTAAGTAACTACCA    600
+
+HBA1             271 AAGGAAAGGGTGGCGCTGCGCT----CCGGGGTG-------------CAC    303
+                     ..|||||.|....|.||||..|    ||.||.||             ||.
+HBB              601 TTGGAAAAGCAACCCCTGCCTTGAAGCCAGGATGATGGTATCTGCAGCAG    650
+
+HBA1             304 GAGCCGACA---GCGCCCGACCC------CAAC-----------------    327
+                     ..|||.|||   |.|...||.||      ||.|                 
+HBB              651 TTGCCAACACAAGAGAAGGATCCATAGTTCATCATTTAAAAAAGAAAACA    700
+
+HBA1             328 ------------------------------------------GGGCCGGC    335
+                                                               |||...|.
+HBB              701 AAATAGAAAAAGGAAAACTATTTCTGAGCATAAGAAGTTGTAGGGTAAGT    750
+
+HBA1             336 C-------------------CCGCCA--------------GCGCC-GCT-    350
+                     |                   |.||||              ||.|. ||| 
+HBB              751 CTTTAAGAAGGTGACAATTTCTGCCAATCAGGATTTCAAAGCTCTTGCTT    800
+
+HBA1             351 -----------------------------------ACCG-----------    354
+                                                        |||.           
+HBB              801 TGACAATTTTGGTCTTTCAGAATACTATAAATATAACCTATATTATAATT    850
+
+HBA1             355 --------------------CCCTGCCCCCGG------GCGA--------    370
+                                         |..||.|||.||      ||.|        
+HBB              851 TCATAAAGTCTGTGCATTTTCTTTGACCCAGGATATTTGCAAAAGACATA    900
+
+HBA1             371 -----------GC-------------------------------------    372
+                                ||                                     
+HBB              901 TTCAAACTTCCGCAGAACACTTTATTTCACATATACATGCCTCTTATATC    950
+
+HBA1             373 -GGGATGGGC----GGGAGTGGAG---TG-----------------GCGG    397
+                      ||||||.|.    |||..|.||.   ||                 ||..
+HBB              951 AGGGATGTGAAACAGGGTCTTGAAAACTGTCTAAATCTAAAACAATGCTA   1000
+
+HBA1             398 GTGGAGGGTGGA--------------------------------------    409
+                     .||.|||.|..|                                      
+HBB             1001 ATGCAGGTTTAAATTTAATAAAATAAAATCCAAAATCTAACAGCCAAGTC   1050
+
+HBA1             410 -----------------------------------GACGTCCTGGCCCCC    424
+                                                        ||||||.|..|||..
+HBB             1051 AAATCTGCATGTTTTAACATTTAAAATATTTTAAAGACGTCTTTTCCCAG   1100
+
+HBA1             425 GC------------------------------CCCGCGTGC----ACCCC    440
+                     |.                              |.||.||||    |.||.
+HBB             1101 GATTCAACATGTGAAATCTTTTCTCAGGGATACACGTGTGCCTAGATCCT   1150
+
+HBA1             441 CAGGG---------------GAGGCCG-----------------------    452
+                     ||..|               ||||...                       
+HBB             1151 CATTGCTTTAGTTTTTTACAGAGGAATGAATATAAAAAGAAAATACTTAA   1200
+
+HBA1             453 -----AGCCCGCCGCCC----------------GGCCCCG--------CG    473
+                          |.|||.|...||                |||....        |.
+HBB             1201 ATTTTATCCCTCTTACCTCTATAATCATACATAGGCATAATTTTTTAACC   1250
+
+HBA1             474 CAGGCCCC-----GCCCGGGACTCCCC----------TGCG-GT------    501
+                     .||||.||     |||...||....||          |||| ||      
+HBB             1251 TAGGCTCCAGATAGCCATAGAAGAACCAAACACTTTCTGCGTGTGTGAGA   1300
+
+HBA1             502 -----------------------CCAGGCCGCGCCCCGGG----------    518
+                                            |.||..|..|....|||          
+HBB             1301 ATAATCAGAGTGAGATTTTTTCACAAGTACCTGATGAGGGTTGAGACAGG   1350
+
+HBA1             519 -----------------CTCC------------------GCGCCAGC---    530
+                                      |||.                  |.|..|||   
+HBB             1351 TAGAAAAAGTGAGAGATCTCTATTTATTTAGCAATAATAGAGAAAGCATT   1400
+
+HBA1             531 -------------CAATG--------------------------------    535
+                                  |||||                                
+HBB             1401 TAAGAGAATAAAGCAATGGAAATAAGAAATTTGTAAATTTCCTTCTGATA   1450
+
+HBA1             536 ---------AGCGCCGCCCGG-----------------------------    547
+                              ||.|...||.|.                             
+HBB             1451 ACTAGAAATAGAGGATCCAGTTTCTTTTGGTTAACCTAAATTTTATTTCA   1500
+
+HBA1             548 --------------------------------------------------    547
+                                                                       
+HBB             1501 TTTTATTGTTTTATTTTATTTTATTTTATTTTATTTTGTGTAATCGTAGT   1550
+
+HBA1             548 --CCGGGCGTGCCCCC----------------GCGCCCCAAGCA------    573
+                       |.|.|.||.....|                |.|...||.|||      
+HBB             1551 TTCAGAGTGTTAGAGCTGAAAGGAAGAAGTAGGAGAAACATGCAAAGTAA   1600
+
+HBA1             574 --------------------TAAACCC---TGG----CGCGCTCGCGGC-    595
+                                         ||||||.   |||    |..|.|.|.||| 
+HBB             1601 AAGTATAACACTTTCCTTACTAAACCGACATGGGTTTCCAGGTAGGGGCA   1650
+
+HBA1             596 -----CCGGCACTCTT-CTGGTCCCCACAGACTCAGAGAGAACCCACCAT    639
+                          |.||....||. |.||.|||....|...||..||||.||.||..|
+HBB             1651 GGATTCAGGATGACTGACAGGGCCCTTAGGGAACACTGAGACCCTACGCT   1700
+
+HBA1             640 GG---------TGCTGTCTCC---TGCCG--------ACA-------AGA    662
+                     |.         ||||..||.|   |||.|        |||       |.|
+HBB             1701 GACCTCATAAATGCTTGCTACCTTTGCTGTTTTAATTACATCTTTTAATA   1750
+
+HBA1             663 CCA----------------ACGTCAAGGC--------CGCCTGGGGT---    685
+                     .||                ||.||||...        |.||||.||.   
+HBB             1751 GCAGGAAGCAGAACTCTGCACTTCAAAAGTTTTTCCTCACCTGAGGAGTT   1800
+
+HBA1             686 ----------AAGGTC-------------------------GGCGCGCAC    700
+                               ||||..                         ||||..|||
+HBB             1801 AATTTAGTACAAGGGGAAAAAGTACAGGGGGATGGGAGAAAGGCGATCAC   1850
+
+HBA1             701 GCTGGCGAG-TATGGTGC----------------------GGAGG-----    722
+                     |.|||..|| |||.|.|.                      |||||     
+HBB             1851 GTTGGGAAGCTATAGAGAAAGAAGAGTAAATTTTAGTAAAGGAGGTTTAA   1900
+
+HBA1             723 --------------------------------------------------    722
+                                                                       
+HBB             1901 ACAAACAAAATATAAAGAGAAATAGGAACTTGAATCAAGGAAATGATTTT   1950
+
+HBA1             723 ----CCC-----------TGGA---GAGG------------TGAGGC---    739
+                         |.|           ||||   ||||            ||||.|   
+HBB             1951 AAAACGCAGTATTCTTAGTGGACTAGAGGAAAAAAATAATCTGAGCCAAG   2000
+
+HBA1             740 -----------TCCCTCCCCTGCTCCGAC-----------CCG-GGCTCC    766
+                                |.||.|.|||.|.||.||           |.| ||||..
+HBB             2001 TAGAAGACCTTTTCCCCTCCTACCCCTACTTTCTAAGTCACAGAGGCTTT   2050
+
+HBA1             767 TCGCCCGCCCGGACCCAC---------AGGCCACCCTCAACC-GTCC--T    804
+                     |.|..|.|||.|||.|.|         ||.|||..|..||.| ||..  |
+HBB             2051 TTGTTCCCCCAGACACTCTTGCAGATTAGTCCAGGCAGAAACAGTTAGAT   2100
+
+HBA1             805 GGCCCCGG--ACCC---------AAACCCC-----ACCCCT---------    829
+                     |.||||.|  |.||         |.|||.|     |||||.         
+HBB             2101 GTCCCCAGTTAACCTCCTATTTGACACCACTGATTACCCCATTGATAGTC   2150
+
+HBA1             830 -CACTCTGC-----------------------------TTCTCCCCGCAG    849
+                      ||||.||.                             ||.|..|.|||.
+HBB             2151 ACACTTTGGGTTGTAAGTGACTTTTTATTTATTTGTATTTTTGACTGCAT   2200
+
+HBA1             850 ---GATGT-TC-----------CTGTCCTTCCCCACCACC----AAG-AC    879
+                        ||.|| ||           ||.|..||.||||..|||    ||| |.
+HBB             2201 TAAGAGGTCTCTAGTTTTTTATCTCTTGTTTCCCAAAACCTAATAAGTAA   2250
+
+HBA1             880 CTACTTCCC---GCACTTCGACCTG----------------AGCCACGGC    910
+                     |||.|.|.|   ||||.|.||..||                ||.||....
+HBB             2251 CTAATGCACAGAGCACATTGATTTGTATTTATTCTATTTTTAGACATAAT   2300
+
+HBA1             911 TC-----------TGCCCAGGTTAAGGGCCACGGCAA-------------    936
+                     |.           ||..||..|||||....||..|||             
+HBB             2301 TTATTAGCATGCATGAGCAAATTAAGAAAAACAACAACAAATGAATGCAT   2350
+
+HBA1             937 --------------------------------------------------    936
+                                                                       
+HBB             2351 ATATATGTATATGTATGTGTGTATATATACACACATATATATATATATTT   2400
+
+HBA1             937 ---------------GAAGGTG----------------GCCGACGCGCTG    955
+                                    ||||||.                |..||...|||.
+HBB             2401 TTTCTTTTCTTACCAGAAGGTTTTAATCCAAATAAGGAGAAGATATGCTT   2450
+
+HBA1             956 ACCAACGCCGTGGCG----CA----------CGTGGACG--------ACA    983
+                     |..|.||..||.|.|    ||          |.||.|.|        |.|
+HBB             2451 AGAACCGAGGTAGAGTTTTCATCCATTCTGTCCTGTAAGTATTTTGCATA   2500
+
+HBA1             984 TGCCCAACGCGCTG-------TCCG---------CCCTGAGC--------   1009
+                     |.|...|..|||.|       |||.         |||..|||        
+HBB             2501 TTCTGGAGACGCAGGAAGAGATCCATCTACATATCCCAAAGCTGAATTAT   2550
+
+HBA1            1010 ----GACC-------TGCAC-----GCGCACAAGCTTC------GGGT--   1035
+                         |||.       |.|||     |.|||..|.||||      |.||  
+HBB             2551 GGTAGACAAAACTCTTCCACTTTTAGTGCATCAACTTCTTATTTGTGTAA   2600
+
+HBA1            1036 -----------GGACCCGG----TCAA----CTT--CAAGGTG-------   1057
+                                |||....|    ||||    |||  ||||.||       
+HBB             2601 TAAGAAAATTGGGAAAACGATCTTCAATATGCTTACCAAGCTGTGATTCC   2650
+
+HBA1            1058 ---------------------------------------AGCGGC-----   1063
+                                                            ||..||     
+HBB             2651 AAATATTACGTAAATACACTTGCAAAGGAGGATGTTTTTAGTAGCAATTT   2700
+
+HBA1            1064 --------------GGGCCGGGAGCGATCT----------GGGTCGAGGG   1089
+                                   |||||..|||..||.|          |||..|||||
+HBB             2701 GTACTGATGGTATGGGGCCAAGAGATATATCTTAGAGGGAGGGCTGAGGG   2750
+
+HBA1            1090 -------------------------GCGAGATG-GC--------------   1099
+                                              ||.|||.| ||              
+HBB             2751 TTTGAAGTCCAACTCCTAAGCCAGTGCCAGAAGAGCCAAGGACAGGTACG   2800
+
+HBA1            1100 GC--------CTT---CCTCGCAGGGCAGAGGATCACGC--GGGTTG---   1133
+                     ||        |||   ||||.|...|..|||...|||.|  ||||||   
+HBB             2801 GCTGTCATCACTTAGACCTCACCCTGTGGAGCCACACCCTAGGGTTGGCC   2850
+
+HBA1            1134 ----------CGGGAGGTGT-AGCGCAGGCGGC--GGCTGCG--------   1162
+                               |.||||..|. ||.|||||.|.|  |||||.|        
+HBB             2851 AATCTACTCCCAGGAGCAGGGAGGGCAGGAGCCAGGGCTGGGCATAAAAG   2900
+
+HBA1            1163 ---GGCCTGGGCCCTC----GGCCCCA-------CTGACCC-----TCTT   1193
+                        ||.|.|.|||.||    |....||       |||||.|     |.||
+HBB             2901 TCAGGGCAGAGCCATCTATTGCTTACATTTGCTTCTGACACAACTGTGTT   2950
+
+HBA1            1194 CTCT-GCA--------CAG------------------CTCCT------AA   1210
+                     |.|| |||        |||                  |||||      ||
+HBB             2951 CACTAGCAACCTCAAACAGACACCATGGTGCATCTGACTCCTGAGGAGAA   3000
+
+HBA1            1211 GCC-------ACTGCC-----------------------------TGCTG   1224
+                     |.|       ||||||                             ||.||
+HBB             3001 GTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTG   3050
+
+HBA1            1225 GTGA--CCCTGGCC-----------------------------------G   1237
+                     ||||  ||||||.|                                   |
+HBB             3051 GTGAGGCCCTGGGCAGGTTGGTATCAAGGTTACAAGACAGGTTTAAGGAG   3100
+
+HBA1            1238 CCCAC------CTCCCCG--------CCGAGTTCACCCCTGCGGT-----   1268
+                     .|||.      ||...|.        |.|||...||.|.||.|.|     
+HBB             3101 ACCAATAGAAACTGGGCATGTGGAGACAGAGAAGACTCTTGGGTTTCTGA   3150
+
+HBA1            1269 ---GCAC-GCCTCCCT---------GGACAAGTT------CCT--GGCTT   1297
+                        |||| |.|||.||         ||.|.|.||      |||  ||||.
+HBB             3151 TAGGCACTGACTCTCTCTGCCTATTGGTCTATTTTCCCACCCTTAGGCTG   3200
+
+HBA1            1298 CTG-----------------------------TGAGCACCGTG-----CT   1313
+                     |||                             ||||..|..||     ||
+HBB             3201 CTGGTGGTCTACCCTTGGACCCAGAGGTTCTTTGAGTCCTTTGGGGATCT   3250
+
+HBA1            1314 GACC--TCCAAATACCGTTA------------AGCTGGAGCCTCGGTGGC   1349
+                     |.||  |||..||.|.||||            ||.||.||.|||. ||||
+HBB             3251 GTCCACTCCTGATGCTGTTATGGGCAACCCTAAGGTGAAGGCTCA-TGGC   3299
+
+HBA1            1350 CA-----TGCTTCTTGCCCCTTG----GGCCT--CCCCCCAGCCCCTCCT   1388
+                     .|     ||||...||||..|.|    |||||  |.|.||.|..|..|||
+HBB             3300 AAGAAAGTGCTCGGTGCCTTTAGTGATGGCCTGGCTCACCTGGACAACCT   3349
+
+HBA1            1389 C-------CCCTTCCTGCAC--------CCGTACC-----------CCCG   1412
+                     |       ||.||.|..|||        |.|.||.           |.||
+HBB             3350 CAAGGGCACCTTTGCCACACTGAGTGAGCTGCACTGTGACAAGCTGCACG   3399
+
+HBA1            1413 TGG-------------------------------------------TCTT   1419
+                     |||                                           ||||
+HBB             3400 TGGATCCTGAGAACTTCAGGGTGAGTCTATGGGACGCTTGATGTTTTCTT   3449
+
+HBA1            1420 T---------------------------------------GAATAA----   1426
+                     |                                       |.||||    
+HBB             3450 TCCCCTTCTTTTCTATGGTTAAGTTCATGTCATAGGAAGGGGATAAGTAA   3499
+
+HBA1            1427 --------AGTCT-GAGTGGGCGGCAGCC---------------TGTGTG   1452
+                             |||.| ||.||||...|||.|               ||||..
+HBB             3500 CAGGGTACAGTTTAGAATGGGAAACAGACGAATGATTGCATCAGTGTGGA   3549
+
+HBA1            1453 TGCCTGAG------------------------------------------   1460
+                     .|.||.||                                          
+HBB             3550 AGTCTCAGGATCGTTTTAGTTTCTTTTATTTGCTGTTCATAACAATTGTT   3599
+
+HBA1            1461 --------------------------TTTTTTCC--CTCAGCAAACGTGC   1482
+                                               ||||||.|  |||.||||...|..
+HBB             3600 TTCTTTTGTTTAATTCTTGCTTTCTTTTTTTTTCTTCTCCGCAATTTTTA   3649
+
+HBA1            1483 C-----------AGGCATGGGC---GTGGACAGCAG------------CT   1506
+                     |           |.||.|...|   |||.|.|.||.            ||
+HBB             3650 CTATTATACTTAATGCCTTAACATTGTGTATAACAAAAGGAAATATCTCT   3699
+
+HBA1            1507 GGGACACA--------CATGGCTAGAACCTCTCTGCAG-CTGGATAGGGT   1547
+                     |.||.|||        |.|....|.||.||.|...||| |||..|||...
+HBB             3700 GAGATACATTAAGTAACTTAAAAAAAAACTTTACACAGTCTGCCTAGTAC   3749
+
+HBA1            1548 A---------GGAAAAGGCAGGGGCG-----GGAGG--------------   1569
+                     |         ||||.|.....|.||.     |.|..              
+HBB             3750 ATTACTATTTGGAATATATGTGTGCTTATTTGCATATTCATAATCTCCCT   3799
+
+HBA1            1570 ---------------------AGGGGATGGAGGA----------------   1582
+                                          |...|||..|..|                
+HBB             3800 ACTTTATTTTCTTTTATTTTTAATTGATACATAATCATTATACATATTTA   3849
+
+HBA1            1583 -GGG--AAAGTGGAG--------------------------CCA---CCG   1600
+                      |||  ||||||.|.                          |||   |.|
+HBB             3850 TGGGTTAAAGTGTAATGTTTTAATATGTGTACACATATTGACCAAATCAG   3899
+
+HBA1            1601 CGAAGTCCAGC----------TGGAAAAACGCTGGACCCT------AGAG   1634
+                     .|.|.|...||          |..|||||.|||.....||      |.|.
+HBB             3900 GGTAATTTTGCATTTGTAATTTTAAAAAATGCTTTCTTCTTTTAATATAC   3949
+
+HBA1            1635 TGCTTTGAGGATGCATTTGCT----CTTTCCCGAGT---TTTATTCCCAG   1677
+                     |..||||...||....||.||    |||||||.|.|   |||.||.|..|
+HBB             3950 TTTTTTGTTTATCTTATTTCTAATACTTTCCCTAATCTCTTTCTTTCAGG   3999
+
+HBA1            1678 ACTTTTCAGATTCAATG---CAGG----TTTGC-------TGAA--ATAA   1711
+                     .|..|...|||.|||||   ||.|    |||||       |.||  ||||
+HBB             4000 GCAATAATGATACAATGTATCATGCCTCTTTGCACCATTCTAAAGAATAA   4049
+
+HBA1            1712 ---TGA--ATTT---------------------ATC----CATCTTTACG   1731
+                        |||  ||||                     |||    |||.|..|..
+HBB             4050 CAGTGATAATTTCTGGGTTAAGGCAATAGCAATATCTCTGCATATAAATA   4099
+
+HBA1            1732 TTTCTG----------GGCACTCTTGT---------------GCCAAGAA   1756
+                     ||||||          |..|||..|||               ||.||.|.
+HBB             4100 TTTCTGCATATAAATTGTAACTGATGTAAGAGGTTTCATATTGCTAATAG   4149
+
+HBA1            1757 CTG----------GCTGGCTTTCTGCCT-------------GGGACGTCA   1783
+                     |.|          |||..|.||||||.|             ||||.....
+HBB             4150 CAGCTACAATCCAGCTACCATTCTGCTTTTATTTTATGGTTGGGATAAGG   4199
+
+HBA1            1784 CTGGTTT---------CCCAG--AGG------------------------   1798
+                     ||||.||         ||.||  |||                        
+HBB             4200 CTGGATTATTCTGAGTCCAAGCTAGGCCCTTTTGCTAATCATGTTCATAC   4249
+
+HBA1            1799 ---------TCCTCCCACA--------------------TATGGGTGGTG   1819
+                              ||||||||||                    |.||.|||.||
+HBB             4250 CTCTTATCTTCCTCCCACAGCTCCTGGGCAACGTGCTGGTCTGTGTGCTG   4299
+
+HBA1            1820 GG-------TAGGTCAGAGAAGTC-CCACTCCAG--CA------------   1847
+                     |.       |..|.||.||||.|| ||.|.||||  ||            
+HBB             4300 GCCCATCACTTTGGCAAAGAATTCACCCCACCAGTGCAGGCTGCCTATCA   4349
+
+HBA1            1848 --------TGGCTGCATTG----ATCCCC---------------------   1864
+                             ||||||...||    ||.|||                     
+HBB             4350 GAAAGTGGTGGCTGGTGTGGCTAATGCCCTGGCCCACAAGTATCACTAAG   4399
+
+HBA1            1865 ------------------------------------CATCGTTCCC----   1874
+                                                         |.|.||||||    
+HBB             4400 CTCGCTTTCTTGCTGTCCAATTTCTATTAAAGGTTCCTTTGTTCCCTAAG   4449
+
+HBA1            1875 -------ACTAGTCTCCG--------------------------------   1885
+                            ||||..||..|                                
+HBB             4450 TCCAACTACTAAACTGGGGGATATTATGAAGGGCCTTGAGCATCTGGATT   4499
+
+HBA1            1886 --------TAAAA------------CCTCCCA--GAT-------------   1900
+                             |||||            |.|..||  |||             
+HBB             4500 CTGCCTAATAAAAAACATTTATTTTCATTGCAATGATGTATTTAAATTAT   4549
+
+HBA1            1901 ------------------ACAGGCA-----------CAGT----------   1911
+                                       |.|||.|           ||||          
+HBB             4550 TTCTGAATATTTTACTAAAAAGGGAATGTGGGAGGTCAGTGCATTTAAAA   4599
+
+HBA1            1912 -----------------CTAG-----------------------------   1915
+                                      ||||                             
+HBB             4600 CATAAAGAAATGAAGAGCTAGTTCAAACCTTGGGAAAATACACTATATCT   4649
+
+HBA1            1916 --------ATGAAATCAGGGG----TGCGGGGTGCAACTGCA----GGCC   1949
+                             ||||||..|||.|    |||.....||.|.||||    |||.
+HBB             4650 TAAACTCCATGAAAGAAGGTGAGGCTGCAAACAGCTAATGCACATTGGCA   4699
+
+HBA1            1950 CCAG--------GCA---------------------------ATTCAA-T   1963
+                     .|||        |||                           |||||| |
+HBB             4700 ACAGCCCCTGATGCATATGCCTTATTCATCCCTCAGAAAAGGATTCAAGT   4749
+
+HBA1            1964 AGGGGCTC---------------------------------------TAC   1974
+                     ||.||||.                                       |||
+HBB             4750 AGAGGCTTGATTTGGAGGTTAAAGTTTTGCTATGCTGTATTTTACATTAC   4799
+
+HBA1            1975 TT------------------------------TCAC--CCC---------   1983
+                     ||                              ||||  |||         
+HBB             4800 TTATTGTTTTAGCTGTCCTCATGAATGTCTTTTCACTACCCATTTGCTTA   4849
+
+HBA1            1984 ----------------------------CAGGTCAC--------------   1991
+                                                 |||.||.|              
+HBB             4850 TCCTGCATCTCTCAGCCTTGACTCCACTCAGTTCTCTTGCTTAGAGATAC   4899
+
+HBA1            1992 --------CCCAGAA-----------------------------------   1998
+                             |||.|||                                   
+HBB             4900 CACCTTTCCCCTGAAGTGTTCCTTCCATGTTTTACGGCGAGATGGTTTCT   4949
+
+HBA1            1999 -------TGCTCACACACC---AG--------------------------   2012
+                            ||..|||.||.|   ||                          
+HBB             4950 CCTCGCCTGGCCACTCAGCCTTAGTTGTCTCTGTTGTCTTATAGAGGTCT   4999
+
+HBA1            2013 --------------------------------------------------   2012
+                                                                       
+HBB             5000 ACTTGAAGAAGGAAAAACAGGGGTCATGGTTTGACTGTCCTGTGAGCCCT   5049
+
+HBA1            2013 ---------------------ACACTGACGC-------------------   2022
+                                          |||.||||.|                   
+HBB             5050 TCTTCCCTGCCTCCCCCACTCACAGTGACCCGGAATCTGCAGTGCTAGTC   5099
+
+HBA1            2023 -CCTGGGGCTGTCAAGAT----CAGG-------   2043
+                      ||.||..||.|||...|    |||.       
+HBB             5100 TCCCGGAACTATCACTCTTTCACAGTCTGCTTT   5132
+
+
+#---------------------------------------
+#---------------------------------------

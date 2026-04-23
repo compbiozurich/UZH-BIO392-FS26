@@ -1,0 +1,26 @@
+1
+- CNVs are associated with various conditions.
+2
+- Larger than 50 bp.
+3
+- Microarrays and NGS 
+- no single discovery strategy can capture the entire spectrum of structural variations in the genome.
+4
+- filters: number of distinct subjects that carry the variant & number of distinct studies with at least one variant in the cluster.
+- reason: exclusion of singletons, and variants that are supported by a larger number of subjects are less likely to be false positives./ exclusion of potential study-specific artefacts. 
+5
+- level 1: at least 1 subject and 1 study
+- level 2: at least 2 subjects and 1 study for each variant.
+- level 12: at least 2 subjects and 2 studies.
+6
+- inclusive map: 9.5%
+- stringent map: 4.8%
+7
+- intuition: non-coding genes should be more variable than protein coding genes.
+- paper: The exons of non-coding genes had the highest proportion of copy number variable sequence.
+8
+- different functions.
+- Functions may be redundant or they may be related to late-onset phenotypic consequences that do not substantially reduce the fitness.
+9
+- Check wether mutated genes are in the CNVRs. If not, they may be clinically relevant. 
+

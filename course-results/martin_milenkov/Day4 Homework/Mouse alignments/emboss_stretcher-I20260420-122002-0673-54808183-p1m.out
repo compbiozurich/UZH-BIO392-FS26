@@ -1,0 +1,275 @@
+########################################
+# Program: stretcher
+# Rundate: Mon 20 Apr 2026 12:20:17
+# Commandline: stretcher
+#    -auto
+#    -stdout
+#    -asequence emboss_stretcher-I20260420-122002-0673-54808183-p1m.asequence
+#    -bsequence emboss_stretcher-I20260420-122002-0673-54808183-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 16
+#    -gapextend 4
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Mouse
+# 2: Mouse
+# Matrix: EDNAFULL
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 2932
+# Identity:    1483/2932 (50.6%)
+# Similarity:  1483/2932 (50.6%)
+# Gaps:         433/2932 (14.8%)
+# Score: 191
+# 
+#
+#=======================================
+
+Mouse              1 TTTGG---AAT---TGA--------GTCTTCGGACCCA-------TTGTC     29
+                     ....|   |||   |||        ||..||..|.|.|       ||||.
+Mouse              1 GACAGGACAATCCCTGAAAAAGCAGGTTATCCAAGCTAACCAGATTTGTG     50
+
+Mouse             30 AATCC----TTTGCT------------ACT----------GTAT------     47
+                     |...|    |||.||            |||          ||||      
+Mouse             51 AGCTCAGGGTTTACTTAAGAGATCCTGACTCAACAATAAGGTATAGAGCA    100
+
+Mouse             48 --------TCATCCTCCAGATGCAACTATGTATAAGTCTTGTCTACTTGG     89
+                             |.||.|||...|.|||..||| |..|...|||||..|||...
+Mouse            101 ATCAAGGGTGATTCTCTGAAGGCAGTTAT-TGAACTCCTTGTACACTCCT    149
+
+Mouse             90 GGCA-ATATATATCTAGGAGATAGAGTTATAAAGCACATATCC-CAAGAA    137
+                     ..|| |.|.||.|.|.. |||.|...|.|||||.|||||||.. ||||.|
+Mouse            150 CCCACACACATGTGTTC-AGAAAACTTGATAAAACACATATATACAAGTA    198
+
+Mouse            138 AAGGAGAAACAGATGTAATATTGGC------ATTTCTGTGTCCACAGCAC    181
+                     ||..|.|.|.|.|| |.|.||..|.      |.....|.||..|.|....
+Mouse            199 AACCACACAAACAT-TCACATGAGAGAAGAAAAAAAAGAGTAAATAAAGT    247
+
+Mouse            182 AA-ATTCCTTTTTTCATGAG-----TTTGTTCTTATTATTAT--AGCCAT    223
+                     || ||.|.||||.|.||.||     ||.|||...|..|..|.  ||.|||
+Mouse            248 AAGATGCATTTTCTTATCAGGAAGTTTAGTTGACACCAGAAAGAAGTCAT    297
+
+Mouse            224 TCTTTCCCTAAACGGTAAAGTTAT-----TTTAGACTG--GATTTTTTTT    266
+                     ..||....|.|| |.|..|||.||     |.||..||.  |||.||||||
+Mouse            298 ATTTGGAATCAA-GATGGAGTCATCATCATGTATGCTAAAGATGTTTTTT    346
+
+Mouse            267 CCT-----------ATAGTGGGCT---AAACTCCTCTTTCTGTGC-CTTT    301
+                     ||.           |..||||.|.   ||.....|...||..||| ||..
+Mouse            347 CCACATTCTTGAGCAATGTGGACAGAGAAGGAGATTCATCCATGCACTCA    396
+
+Mouse            302 GTTGGAAAAAGTGATAAGAGAAATGGGCGT-TATACTGGG-------AGT    343
+                     ....||.|||...|.||.||||||...|.| ||..||..|       |.|
+Mouse            397 AACTGAGAAACAAAGAAAAGAAATCCTCTTCTAAGCTTTGCTTCTCAATT    446
+
+Mouse            344 TTACATGTGGA----GAGTAGAAAATGAAAAGAGAATAAGCAAAACAAAG    389
+                     |...||.||.|    |||.|.||||.|||||.. |||....|.|||.||.
+Mouse            447 TCTTATTTGCATAATGAGAAAAAAAGGAAAATT-AATTTTAACAACCAAT    495
+
+Mouse            390 AGAGTTTTTG-TTGA----AGGAGGAGCCAAAAA-----------AGAAA    423
+                     ..|||..||| ||||    |.|.|..||||||||           |||.|
+Mouse            496 TCAGTAGTTGATTGAGCAAATGTGTTGCCAAAAAGGATGCTTTAGAGACA    545
+
+Mouse            424 GAATAC-CTCCATATCTAATGTGCATTATCATAAACACAGTGTACAGTTT    472
+                     |..|.| ||.||.|..|||.|...|..||.||..|.|..|.||||.... 
+Mouse            546 GTGTTCTCTGCACAGATAAGGACAAACATTATTCAGAGGGAGTACCCAG-    594
+
+Mouse            473 TTGCTGACCCTCCCATGACC-----TGGCTC--CACCCATG-AGGACCAC    514
+                      .|||||..||||.|.|.|.     ||||.|  ||.|||.| ||.|..|.
+Mouse            595 -AGCTGAGACTCCTAAGCCAGTGAGTGGCACAGCATCCAGGGAGAAATAT    643
+
+Mouse            515 GG--GTCA--------GGCTGA---CCAATAGCTTCA-------AAG---    541
+                     |.  ||||        |.||||   |..|.|||..||       |||   
+Mouse            644 GCTTGTCATCACCGAAGCCTGATTCCGTAGAGCCACACCCTGGTAAGGGC    693
+
+Mouse            542 -AATA-----ATGCAGAACAAAG-GGTCAGAA-CATTGTCTGTGAAGCAT    583
+                      |||.     |..|||.|.|.|| ||.|||.| |...|.|.|   |||||
+Mouse            694 CAATCTGCTCACACAGGATAGAGAGGGCAGGAGCCAGGGCAG---AGCAT    740
+
+Mouse            584 AAAAGGCCACCACTTCT-AGCAGCAGTACATACTTGCTTCTGACACTCCT    632
+                     |.||||..|.......| ||..||....||.|.||||||||||||....|
+Mouse            741 ATAAGGTGAGGTAGGATCAGTTGCTCCTCACATTTGCTTCTGACATAGTT    790
+
+Mouse            633 GTGATCACCAGCAACCTCCCAGACTTGCCATCATGGTGAACTTTACTGCT    682
+                     |||.|.||...|||||.|..|.||. |.||||||||||.||.|.||||.|
+Mouse            791 GTGTTGACTCACAACCCCAGAAACA-GACATCATGGTGCACCTGACTGAT    839
+
+Mouse            683 GAGGAAAAGACCCTCATCAATGGCCTGTGGAGTAAGGTCAATGTTGAAGA    732
+                     |..||.|||.|.....||..||||||||||.|.|||||.||.|..||.||
+Mouse            840 GCTGAGAAGGCTGCTGTCTCTGGCCTGTGGGGAAAGGTGAACGCCGATGA    889
+
+Mouse            733 GGTTGGTGGTGAAGCCTTGGGAAGGTAAGAATT--GTTTTTAGGGTA---    777
+                     .|||||||||||.|||.||||.||||..|.||.  |.||..|.||.|   
+Mouse            890 AGTTGGTGGTGAGGCCCTGGGCAGGTTGGTATCCAGGTTACAAGGCAGCT    939
+
+Mouse            778 CA-AAGAGCTAGGGAAATCA-----AGAATTCTG---------AGGCTCC    812
+                     || ||||..|.|||...|..     |||..||||         ||||.|.
+Mouse            940 CACAAGAAGTTGGGTGCTTGGAGACAGAGGTCTGCTTACCAGCAGGCACT    989
+
+Mouse            813 --CTTATATTTCTACTTGTCTTTCTC-CACTTCACAGGCTTCTTGTTGTG    859
+                       |||..|.|....|.|||||.|.|. |.|||...|||||.||.|||||.
+Mouse            990 AACTTTGAGTGTCCCCTGTCTATGTTTCCCTTTTTAGGCTGCTGGTTGTC   1039
+
+Mouse            860 TACCCATGGACCCATAGATTTTTTGACAGCTTTGGGAACTTGTCCTCTGC    909
+                     |||||.||||||||..|.|..|||||.||||||||..||.|.||||||||
+Mouse           1040 TACCCTTGGACCCAGCGGTACTTTGATAGCTTTGGAGACCTATCCTCTGC   1089
+
+Mouse            910 TTCTGCCATAATGGGCAACCCAAGGGTCAAAGCCCATGGCAAGAAGGTGC    959
+                     .|||||.||.|||||.||..|.|..||.||.||||||||||||||.|||.
+Mouse           1090 CTCTGCTATCATGGGTAATGCCAAAGTGAAGGCCCATGGCAAGAAAGTGA   1139
+
+Mouse            960 TGACTGCTTTTGGAGAGTCCATTAAGAATCTAGACAACCTCAAGTCTGCC   1009
+                     |.|||||.|||...||...|.|.||..|..|.||||.|||||||....||
+Mouse           1140 TAACTGCCTTTAACGATGGCCTGAATCACTTGGACAGCCTCAAGGGCACC   1189
+
+Mouse           1010 TTGGCCAAGCTCAGTGAACTGCACTGTGACAAGCTACATGTGGATCCTGA   1059
+                     ||.||||..||||||||.||.||||||||||||||.||||||||||||||
+Mouse           1190 TTTGCCAGCCTCAGTGAGCTCCACTGTGACAAGCTGCATGTGGATCCTGA   1239
+
+Mouse           1060 GAACTTCAAAGTGAGTCTA--GGGCAATGCCACAAATTTATTT---TGG-   1103
+                     ||||||||..||||||||.  |||||...||.....||..||.   ||| 
+Mouse           1240 GAACTTCAGGGTGAGTCTGATGGGCACCTCCTGGGTTTCCTTCCCCTGGC   1289
+
+Mouse           1104 -ATTTGTCTCGGGGACAAAATGAGAAGCCAAGAATATGA-ATAAGGGGGT   1151
+                      |||...|||.........||.|||||..|||...|.|. ||....|||.
+Mouse           1290 TATTCTGCTCAACCTTCCTATCAGAAGGAAAGGGGAAGCGATTCTAGGGA   1339
+
+Mouse           1152 GCTTACTTAGCTGTCAAAGTTAATTAATTGGTCCCAGTAGGGTG-ACAGT   1200
+                     ||...||   |..|.|..||...|..|.||.|..||..||..|| |.|.|
+Mouse           1340 GCAGTCT---CCATGACTGTGTGTGGAGTGTTGACAAGAGTTTGGATATT   1386
+
+Mouse           1201 GAATGGCTGTAAGAAACCTAAATTAGTTTACAAACATTTAGAAAATTTTG   1250
+                     ..||. ||.||...|...|...|  |.|..|...||.|..|...  |.||
+Mouse           1387 TTATT-CTCTACTCAGAATCGCT--GCTCCCCCTCACTCTGTTC--TGTG   1431
+
+Mouse           1251 TCGTGATAAAAT-TTTCTTGGAT----TTATCATGGAGAGTAATATGAAA   1295
+                     |.||.||....| ||||||.|.|    ||.|.||....|||    ||.|.
+Mouse           1432 TTGTCATTTCCTCTTTCTTTGGTAAGCTTTTAATTTCCAGT----TGCAT   1477
+
+Mouse           1296 AGTAGTAGATCTATGCAAGAAGAAATGGAATAGGGAG--TGGAAAAATCT   1343
+                     ..||.||.||..||..|....|..||..|.|....|.  ||..|..|.||
+Mouse           1478 TTTACTAAATTAATTAAGCTGGTTATTTACTTCCCATCCTGATATCAGCT   1527
+
+Mouse           1344 TAACTTTTTG--TGGGTCCTATTGATTGATGTTGAAGAAAAGTCTTGCAA   1391
+                     |..|.|..|.  |...|||.|.|..||. |.|..........||||.|..
+Mouse           1528 TCCCCTCCTCCTTTCCTCCCAGTCCTTC-TCTCTCTCCTCTCTCTTTCTC   1576
+
+Mouse           1392 GACAACCTTATGGTGAATTTTCTCAATAAACATAAAATTGTATTAAATTT   1441
+                     .| |.||||    |...||..||||.|.  |||....|..|.||..||.|
+Mouse           1577 TA-ATCCTT----TCCTTTCCCTCAGTT--CATTTCTTCTTCTTTGATCT   1619
+
+Mouse           1442 CCAGGTGAATATCTTGACAAATGGAGGCTTGTTCTTACATTGGGGGTAGT   1491
+                     .|...||..|.||||...||||...|.|||||                  
+Mouse           1620 ACTTTTGTTTGTCTTTTTAAATATTGCCTTGT------------------   1651
+
+Mouse           1492 TTTAAAACTCCACCAACAGCAGTAGGAAAACACAAATTCTGAATTTACAG   1541
+                          ||||. ||..|.||.|..|||||.|.|..... |||..|.|.|..
+Mouse           1652 -----AACTT-ACTCAGAGGACAAGGAAGATATGTCC-CTGTTTCTTCTC   1694
+
+Mouse           1542 ATACTAGACAACTGTAGAATGAGAATAACGACAGGCAAATAAAT-ATGCT   1590
+                     |||.....|||...|||.|..|.|||.      |||...||... |.|.|
+Mouse           1695 ATAGCTCTCAAGAATAGTAGCATAATT------GGCTTTTATGCCAGGGT   1738
+
+Mouse           1591 GAGAATAGAAGGTATGAGAATCCAGGCAGAACAGTGGTGAGTGGGAAAAA   1640
+                     ||.|...||||  |..|.|.|..|  ||.|..|.|..||..||      |
+Mouse           1739 GACAGGGGAAG--AATATATTTTA--CATATAAATTCTGTTTG------A   1778
+
+Mouse           1641 AAGAGGAACAATAGAAAAATGGAATCTCTGCTCATCAGAGATGATTGAGG   1690
+                     .|.||||....||.||.|||        |..|||.|||     .||.|||
+Mouse           1779 CATAGGATTCTTATAATAAT--------TTGTCAGCAG-----TTTAAGG   1815
+
+Mouse           1691 AAGCTTTGATGCTGAATGTGTTAAAGAGTATGGGTTCAAAATATTTCTTT   1740
+                          |||......|||||.||.|..|.||.|..|.||..||.|      
+Mouse           1816 -----TTGCAAACAAATGTCTTTATAAATAAGCCTGCAGTATCT------   1854
+
+Mouse           1741 GTTTTTTTAATGCTTATTCGTTTCAAATCTTCATTTAACACACCGATTTG   1790
+                     |.|.||||  ||||.....|||    ||.||.||               |
+Mouse           1855 GGTATTTT--TGCTCTACAGTT----ATGTTGAT---------------G   1883
+
+Mouse           1791 TTTCTTTTGTCTTTCCATCAACAGCTCTTGGGTAATGTGCTGGTGATTGT   1840
+                     .|||||...||||.|||    ||||||.||||.|||.||.|.||||||||
+Mouse           1884 ATTCTTCCATCTTCCCA----CAGCTCCTGGGCAATATGATCGTGATTGT   1929
+
+Mouse           1841 TTTGGCTAGTCACTTCGGCAATGAATTCACAGCTGAGATGCAGGCTGCCT   1890
+                     ..|||.....|||.|.|||||.||.|||||..|.|.....||||||||||
+Mouse           1930 GCTGGGCCACCACCTGGGCAAGGATTTCACCCCCGCTGCACAGGCTGCCT   1979
+
+Mouse           1891 GGCAGAAGCTGGTGGCTGGGGTGGCCACTGCGCTGTCCCACAAGTACCAC   1940
+                     ..||||||.||||||||||.||||||.||||.|||.|.||||||||||||
+Mouse           1980 TCCAGAAGGTGGTGGCTGGAGTGGCCGCTGCCCTGGCTCACAAGTACCAC   2029
+
+Mouse           1941 TGAGCCCTCTCTCTAGCTGTCCAGCAATCCTGTGTGTCCGCTATGCCTCC   1990
+                     |.|.|||.||.||..|||.|          ||..|||...|.|||..|..
+Mouse           2030 TAAACCCCCTTTCCTGCTCT----------TGCCTGTGAACAATGGTTAA   2069
+
+Mouse           1991 TTTCTGCACAT-GAATACTGGACTGTTCCTTGAAAGCACATCATGTTTAA   2039
+                     ||..|.|..|. ||..|...|.|.|||..|.|.||....||.|.|.....
+Mouse           2070 TTGTTCCCAAGAGAGCATCTGTCAGTTGTTGGCAAAATGATAAAGACATT   2119
+
+Mouse           2040 TAAAGATCATCCTTCCTGGTAATCAAAA--ATTCAGTTTTGTCTTGTCTG   2087
+                     |.||.|||...||||.....|||.||||  |||.|  |||..||....||
+Mouse           2120 TGAAAATCTGTCTTCTGACAAATAAAAAGCATTTA--TTTCACTGCAATG   2167
+
+Mouse           2088 CTTTCTACTTTTATGCTAAAGACACATATTTGATGTGTTTTTGGAAAGGG   2137
+                     .|.|.|....||||......|...||||   ||.|.||||.||..|||..
+Mouse           2168 ATGTTTTAAATTATTTGTCTGTGTCATA---GAAGGGTTTATGCTAAGTT   2214
+
+Mouse           2138 GGAAGCACAGGAAGACTCAGGCATTTATCTGAAACCTGCAGGGACTCAA-   2186
+                     ...|..|.|..||||.....|..||.|..|...||||...||.|.|.|| 
+Mouse           2215 TTCAAGATACAAAGAAGTGAGGGTTCAGGTCTGACCTTGGGGAAATAAAT   2264
+
+Mouse           2187 GAGAGAAACGTAGAAGCCATGGAAGGCTTCTACAGGCCCAGTGAGAGTCT   2236
+                     ||...|.||.|..||...||||.|     |..||.||  |||.||   |.
+Mouse           2265 GAATTACACTTCAAATGTATGGGA-----CAGCAAGC--AGTAAG---CC   2304
+
+Mouse           2237 AAAGCTGAGAAAGAATTCTCAGAGAGA---AGAAAGAAATTTAGTGGAGA   2283
+                     |.||.|...|..|...|..|..|.|.|   |||.|.|||||.|..  |.|
+Mouse           2305 ACAGATCCTATTGCCATGCCCTAAACACTCAGAGAAAAATTCAAC--AAA   2352
+
+Mouse           2284 AGGCATTGTGTATGGA--ACAT-ATGA--ACATTTACTGTAGAGGGTGAA   2328
+                     .||..|..|.|||..|  |||| ||||  ||||||..||||       ||
+Mouse           2353 TGGTTTCATTTATACACTACATTATGATTACATTTTATGTA-------AA   2395
+
+Mouse           2329 GAAAAGGGTGACAAGTGATAC-CTTGCAGC---AGGTTGTGACATCCCAT   2374
+                     ..|...|.|..    |..||| |||.||..   |.||..|....|||..|
+Mouse           2396 TTATTTGTTTT----TTCTACTCTTCCACATAAATGTCTTTTTTTCCTCT   2441
+
+Mouse           2375 TACCATTAGGAAAAAGCTTTTACAAGATCCAAGAGCTAATTTAGAATTAA   2424
+                     ||||.     |...|||..||...||.||..| |||.|||    ||||..
+Mouse           2442 TACCT-----ACCCAGCACTTCACAGTTCTCA-AGCCAAT----AATTTT   2481
+
+Mouse           2425 CTTTCTTTAAAAAAGCATTTGTTGGGTAACCAATTGGTGTGCTCTGCCCC   2474
+                     ..||.|.|||||...|..||.||...|||.|..||.......|.|...||
+Mouse           2482 TCTTTTGTAAAATTACCATTATTCTCTAAACTTTTCCCTCTGTGTTTACC   2531
+
+Mouse           2475 GGGGAAGACTCTTGATC----CAGCTCTCAGCAACCCTTAGTTGACTGTA   2520
+                     ..|.||.|.|.||.|||    ||....||......||||||....||..|
+Mouse           2532 AAGCAACATTATTTATCTTTTCATAAATCCTGTTGCCTTAGACAGCTCCA   2581
+
+Mouse           2521 ATTC---TTTGTGTATGGTTGAGGTCTCAT-----GGGCTTTATTTACCC   2562
+                     ||..   |....|||||.||.|||....|.     |.||..|.|||..|.
+Mouse           2582 ATAGCAATAGAGGTATGATTAAGGAGAGAATAGAAGTGCCCTGTTTGTCA   2631
+
+Mouse           2563 CACC---CAT--------ATTAGCAAATGTG---TATCACA--GCAAGCT   2596
+                     .|||   |.|        |.|||..|.|.||   |.|||.|  |||...|
+Mouse           2632 TACCATGCCTGCACAGTCAATAGTCACTATGAGATTTCAAATGGCACTTT   2681
+
+Mouse           2597 TCATGGT-CTTTTGGCTCTTACA--ATCTTTTGCCCTTCTTCTGAAGTGT   2643
+                     .|.|||. |.|||....||.|||  ||..|.||.|.|...|..|.|||..
+Mouse           2682 GCCTGGGACCTTTACACCTCACATCATACTCTGGCTTGAGTTCGGAGTTA   2731
+
+Mouse           2644 TCCCTGATCCTTAGGT--GTGTAGA-----TG   2668
+                     ....|||.....|..|  ||.||||     |.
+Mouse           2732 AGAATGAGAGAAATATAAGTCTAGAGAGAATA   2763
+
+
+#---------------------------------------
+#---------------------------------------

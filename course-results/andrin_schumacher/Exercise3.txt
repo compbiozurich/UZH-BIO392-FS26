@@ -1,0 +1,30 @@
+## Exercise 3
+- bin: chr7_20000000_30000000.
+- favours glioblastoma.
+- It seems like duplications in that region are associated with glioblastoma. The broad group-level pattern on Progenix looks the same for the whole chromosome. 
+
+bin_id = bins_to_plot[1]  # zweites Histogramm
+
+plt.figure(figsize=(6, 4))
+
+for group_code in [GROUP_1, GROUP_2]:
+    values = plot_df.loc[plot_df["group_code"] == group_code, bin_id]
+    plt.hist(
+        values,
+        bins=[-1.5, -0.5, 0.5, 1.5],
+        alpha=0.6,
+        label=GROUP_LABELS[group_code],
+        rwidth=0.9,
+    )
+
+coef_value = coefs[bin_id]
+plt.xticks([-1, 0, 1], ["Deletion (-1)", "No event (0)", "Duplication (+1)"])
+plt.xlabel("CNV state in this genome bin")
+plt.ylabel("Number of samples")
+plt.title(f"{format_bin_label(bin_id)}\nCoefficient = {coef_value:.3f}")
+plt.legend()
+plt.tight_layout()
+plt.show()
+
+print("https://progenetix.org/services/collationplots/?filters=" + GROUP_1)
+print("https://progenetix.org/services/collationplots/?filters=" + GROUP_2)

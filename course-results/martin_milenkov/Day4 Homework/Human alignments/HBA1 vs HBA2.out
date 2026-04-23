@@ -1,0 +1,207 @@
+########################################
+# Program: stretcher
+# Rundate: Mon 20 Apr 2026 11:57:34
+# Commandline: stretcher
+#    -auto
+#    -stdout
+#    -asequence emboss_stretcher-I20260420-115718-0950-20588542-p2m.asequence
+#    -bsequence emboss_stretcher-I20260420-115718-0950-20588542-p2m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 16
+#    -gapextend 4
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HBA1
+# 2: HBA2
+# Matrix: EDNAFULL
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 2078
+# Identity:    1728/2078 (83.2%)
+# Similarity:  1728/2078 (83.2%)
+# Gaps:          78/2078 ( 3.8%)
+# Score: 6832
+# 
+#
+#=======================================
+
+HBA1               1 GACTATCGCCAGAGGGAAAGGGAGCTGCAGGAAGCGAGGCTGGAGAGCAG     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2               1 GACTATCGCCAGAGGGAAAGGGAGCTGCAGGAAGCGAGGCTGGAGAGCAG     50
+
+HBA1              51 GAGGGGCTCTGCGCAGAAATTCTTTTGAGTTCCTATGGGCCAGGGCGTCC    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2              51 GAGGGGCTCTGCGCAGAAATTCTTTTGAGTTCCTATGGGCCAGGGCGTCC    100
+
+HBA1             101 GGGTGCGCGCATTCCTCTCCGCCCCAGGATTGGGCGAAGCCTCCCGGCTC    150
+                     |||||||||||||||||||||||||||||||||||||||||..|||||||
+HBA2             101 GGGTGCGCGCATTCCTCTCCGCCCCAGGATTGGGCGAAGCCCTCCGGCTC    150
+
+HBA1             151 GCACTCGCTCGCCCGTGTGTTCCCCGATCCCGCTGGAGTCGATGCGCGTC    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             151 GCACTCGCTCGCCCGTGTGTTCCCCGATCCCGCTGGAGTCGATGCGCGTC    200
+
+HBA1             201 CAGCGCGTGCCAGGCCGGGGCGGGGGTGCGGGCTGACTTTCTCCCTCGCT    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             201 CAGCGCGTGCCAGGCCGGGGCGGGGGTGCGGGCTGACTTTCTCCCTCGCT    250
+
+HBA1             251 AGGGACGCTCCGGCGCCCGAAAGGAAAGGGTGGCGCTGCGCTCCGGGGTG    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             251 AGGGACGCTCCGGCGCCCGAAAGGAAAGGGTGGCGCTGCGCTCCGGGGTG    300
+
+HBA1             301 CACGAGCCGACAGCGCCCGACCCCAACGGGCCGGCCCCGCCAGCGCCGCT    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             301 CACGAGCCGACAGCGCCCGACCCCAACGGGCCGGCCCCGCCAGCGCCGCT    350
+
+HBA1             351 ACCGCCCTGCCCCCGGGCGAGCGGGATGGGCGGGAGTGGAGTGGCGGGTG    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             351 ACCGCCCTGCCCCCGGGCGAGCGGGATGGGCGGGAGTGGAGTGGCGGGTG    400
+
+HBA1             401 GAGGGTGGAGACGTCCTGGCCCCCGCCCCGCGTGCACCCCCAGGGGAGGC    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             401 GAGGGTGGAGACGTCCTGGCCCCCGCCCCGCGTGCACCCCCAGGGGAGGC    450
+
+HBA1             451 CGAGCCCGCCGCCCGGCCCCGCGCAGGCCCCGCCCGGGACTCCCCTGCGG    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             451 CGAGCCCGCCGCCCGGCCCCGCGCAGGCCCCGCCCGGGACTCCCCTGCGG    500
+
+HBA1             501 TCCAGGCCGCGCCCCGGGCTCCGCGCCAGCCAATGAGCGCCGCCCGGCCG    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             501 TCCAGGCCGCGCCCCGGGCTCCGCGCCAGCCAATGAGCGCCGCCCGGCCG    550
+
+HBA1             551 GGCGTGCCCCCGCGCCCCAAGCATAAACCCTGGCGCGCTCGCGGCCCGGC    600
+                     ||||||||||||||||||||||||||||||||||||||||||||.|||||
+HBA2             551 GGCGTGCCCCCGCGCCCCAAGCATAAACCCTGGCGCGCTCGCGGGCCGGC    600
+
+HBA1             601 ACTCTTCTGGTCCCCACAGACTCAGAGAGAACCCACCATGGTGCTGTCTC    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             601 ACTCTTCTGGTCCCCACAGACTCAGAGAGAACCCACCATGGTGCTGTCTC    650
+
+HBA1             651 CTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCAC    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             651 CTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAGGTCGGCGCGCAC    700
+
+HBA1             701 GCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGGTGAGGCTCCCTCCCCTG    750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             701 GCTGGCGAGTATGGTGCGGAGGCCCTGGAGAGGTGAGGCTCCCTCCCCTG    750
+
+HBA1             751 CTCCGACCCGGGCTCCTCGCCCGCCCGGACCCACAGGCCACCCTCAACCG    800
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             751 CTCCGACCCGGGCTCCTCGCCCGCCCGGACCCACAGGCCACCCTCAACCG    800
+
+HBA1             801 TCCTGGCCCCGGACCCAAACCCCACCCCTCACTCTGCTTCTCCCCGCAGG    850
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             801 TCCTGGCCCCGGACCCAAACCCCACCCCTCACTCTGCTTCTCCCCGCAGG    850
+
+HBA1             851 ATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCT    900
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             851 ATGTTCCTGTCCTTCCCCACCACCAAGACCTACTTCCCGCACTTCGACCT    900
+
+HBA1             901 GAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACG    950
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             901 GAGCCACGGCTCTGCCCAGGTTAAGGGCCACGGCAAGAAGGTGGCCGACG    950
+
+HBA1             951 CGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCC   1000
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2             951 CGCTGACCAACGCCGTGGCGCACGTGGACGACATGCCCAACGCGCTGTCC   1000
+
+HBA1            1001 GCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTT   1050
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2            1001 GCCCTGAGCGACCTGCACGCGCACAAGCTTCGGGTGGACCCGGTCAACTT   1050
+
+HBA1            1051 CAAGGTGAGCGGCGGGCCGGGAGCGATCTGGGTCGAGGGGCGAGATGGCG   1100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2            1051 CAAGGTGAGCGGCGGGCCGGGAGCGATCTGGGTCGAGGGGCGAGATGGCG   1100
+
+HBA1            1101 CCTTCCTCGCAGGGCAGAGGATCACGCGGGTTGCGGGAGGTGTAGCGCAG   1150
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+HBA2            1101 CCTTCCTCTCAGGGCAGAGGATCACGCGGGTTGCGGGAGGTGTAGCGCAG   1150
+
+HBA1            1151 GCGGCGGCTGCGGGCCTGGGCCCTCGGCCCCACTGACCCTCTTCTCTGCA   1200
+                     ||||||||||||||||||||||.       ||||||||||||||||||||
+HBA2            1151 GCGGCGGCTGCGGGCCTGGGCCG-------CACTGACCCTCTTCTCTGCA   1193
+
+HBA1            1201 CAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGC   1250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2            1194 CAGCTCCTAAGCCACTGCCTGCTGGTGACCCTGGCCGCCCACCTCCCCGC   1243
+
+HBA1            1251 CGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTG   1300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HBA2            1244 CGAGTTCACCCCTGCGGTGCACGCCTCCCTGGACAAGTTCCTGGCTTCTG   1293
+
+HBA1            1301 TGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTGGCC   1350
+                     ||||||||||||||||||||||||||||||||||||||||||||||.|||
+HBA2            1294 TGAGCACCGTGCTGACCTCCAAATACCGTTAAGCTGGAGCCTCGGTAGCC   1343
+
+HBA1            1351 ATGCTTCTTGCCCCTTGGGCCTCCCCCCAGCCCCTCCTCCCCTTCCTGCA   1400
+                     .|.|.||.|||||..||||||||||..|.|.||||||||||||.|.||||
+HBA2            1344 GTTCCTCCTGCCCGCTGGGCCTCCCAACGGGCCCTCCTCCCCTCCTTGCA   1393
+
+HBA1            1401 CCCGTACCCCCGTGGTCTTTGAATAAAGTCTGAGTGGGCGGCAGCCTGTG   1450
+                     ||.|. ||..|.|||||||||||||||||||||||||||.||||||||||
+HBA2            1394 CCGGC-CCTTCCTGGTCTTTGAATAAAGTCTGAGTGGGCAGCAGCCTGTG   1442
+
+HBA1            1451 TGTGCCTGAGTTTTTTCCCTCAGCAAACGTGCCAGGCATGGGCGTGGACA   1500
+                     ||||||||.|||.|.||..||....||.||||||...||||..|||...|
+HBA2            1443 TGTGCCTGGGTTCTCTCTATCCCGGAATGTGCCAACAATGGAGGTGTTTA   1492
+
+HBA1            1501 GCAGCTGGGACACACATGGCTAGAACCTCTCTGCAGCTGGATAGGGTAGG   1550
+                        .|||...||.||    |.||.|||||||||||||||.||.|||    
+HBA2            1493 ---CCTGTCTCAGAC----CAAGGACCTCTCTGCAGCTGCATGGGG----   1531
+
+HBA1            1551 AAAAGGCAGGGGCGGGAGGAGGGGATGGAGGAGGGAAAGTGGAGCCACCG   1600
+                           |.||||.|||||.|..|.|.||||.|.||.|.|.|.|||....|
+HBA2            1532 ------CTGGGGAGGGAGAACTGCAGGGAGTATGGGAGGGGAAGCTGAGG   1575
+
+HBA1            1601 CGAAGTCCAGCTGGAAAAACG---CTGGACCCTAGAGTGCTTTGAG-GAT   1646
+                     .|  |.||.|||..|.|.|.|   |||.|||.|....||...|||| |.|
+HBA2            1576 TG--GGCCTGCTCAAGAGAAGGTGCTGAACCATCCCCTGTCCTGAGAGGT   1623
+
+HBA1            1647 GCATTTGCTCTTTCCCGAGTTTTATTCCCAGACTTTTC-AGATTCAATGC   1695
+                     ||.....||.....|.|.|..|.|....|.|....... |||..|| |.|
+HBA2            1624 GCCAGGCCTGCAGGCAGTGGCTCAGAAGCTGGGGAGGAGAGAGGCA-TCC   1672
+
+HBA1            1696 AGGTTTGCTGAAATAATGAATTTATCCATCTTTACGTTTCTGGGCACTCT   1745
+                     |||.|| || |...|..||.|.....||||...||..|.||..|.|.|||
+HBA2            1673 AGGGTT-CT-ACTCAGGGAGTCCCAGCATCGCCACCCTCCTTTGAAATCT   1720
+
+HBA1            1746 TGTGCCAAGAAC-----TGGCTGGCTTTCTGCCTGGGACGTCACTGGTTT   1790
+                     ........||||     |..|...|..|||.|.|...|....|..|... 
+HBA2            1721 CCCTGGTTGAACCCAGTTAACATACGCTCTCCATCAAAACAAAACGAAA-   1769
+
+HBA1            1791 CCCAGAGGTCCTCCCACATATGGGTGGTGGGTAGGTCA-GAGAAG-TCCC   1838
+                      |.|.|....||..|| |.||.||..||....||..|| |.|.|| |.||
+HBA2            1770 -CAAAACAAACTAGCA-AAATAGGCTGTCCCCAGTGCAAGTGCAGGTGCC   1817
+
+HBA1            1839 ACTCCAGCATGGCTG-CATTGATCCCCCATCGTTCCCAC---TAG-TCTC   1883
+                     |.   |.|||..||. ||||....||||.||.|.||...   ||| |..|
+HBA2            1818 AG---AACATTTCTCTCATTCCCACCCCTTCCTGCCAGAGGGTAGGTGGC   1864
+
+HBA1            1884 CGTAA--AACCTCCCAGATACAGGCACAGTCTAGATGAAATCAGGGGTG-   1930
+                     .|.|.  |...|.|..|....|..||||.|.....||   |||.|| || 
+HBA2            1865 TGGAGTGAGGGTGCTGGCCCTACTCACACTTCCTGTG---TCACGG-TGA   1910
+
+HBA1            1931 ----CGGGGTGCAACTGCAGGCCCCAGGCAATTCAATAGGGGCTC---TA   1973
+                         |.|.|.|||.|. |||.|....||.||......|||||||.   |.
+HBA2            1911 CCCTCTGAGAGCAGCC-CAGTCAGTGGGGAAGGAGGAAGGGGCTGGGATG   1959
+
+HBA1            1974 CTTTCACCCC-CAGGTCACCCCAGA--ATGCTCACACACCAGA-CAC--T   2017
+                     ||..||.||. |||..|||.||.|.  |..|||.. ||.|||| |||  |
+HBA2            1960 CTCACAGCCGGCAGCCCACACCTGGGGAGACTCTT-CAGCAGAGCACCTT   2008
+
+HBA1            2018 GACGCCCTGGGGCTGTCAAGAT--CAGG   2043
+                     |..|||.|....||| ||.|..  |.|.
+HBA2            2009 GCGGCCTTACTCCTG-CACGTCTCCTGC   2035
+
+
+#---------------------------------------
+#---------------------------------------

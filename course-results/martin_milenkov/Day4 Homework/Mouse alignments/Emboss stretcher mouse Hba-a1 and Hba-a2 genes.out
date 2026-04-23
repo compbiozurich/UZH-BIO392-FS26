@@ -1,0 +1,215 @@
+########################################
+# Program: stretcher
+# Rundate: Wed 22 Apr 2026 15:44:13
+# Commandline: stretcher
+#    -auto
+#    -stdout
+#    -asequence emboss_stretcher-I20260422-154408-0033-16079988-p1m.asequence
+#    -bsequence emboss_stretcher-I20260422-154408-0033-16079988-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 16
+#    -gapextend 4
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Mouse_Hba_a1
+# 2: Mouse_Hba_a2
+# Matrix: EDNAFULL
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 2181
+# Identity:    1898/2181 (87.0%)
+# Similarity:  1898/2181 (87.0%)
+# Gaps:         197/2181 ( 9.0%)
+# Score: 8274
+# 
+#
+#=======================================
+
+Mouse_Hba_a1       1 CCAGGACCAGAGGCTCCCCATATGTGTCACCAAAACCAGCTCAGAGCATT     50
+                                                                       
+Mouse_Hba_a2       1 --------------------------------------------------      0
+
+Mouse_Hba_a1      51 TCCTTATTGATCCATGGTAGCACAGGGCAGCTAAGATGCAAGTCTGAAGG    100
+                                                                       
+Mouse_Hba_a2       1 --------------------------------------------------      0
+
+Mouse_Hba_a1     101 AGGAGTCTGGCGAGCTGCTCCTGCAGTTCCCTGGACCCAGAAGGATGAGC    150
+                                                                |||||||
+Mouse_Hba_a2       1 -------------------------------------------GATGAGC      7
+
+Mouse_Hba_a1     151 TAGCAGATTCACTTGAGCCAAAGGATTCCAGGCCAGCCTGGAAACTAGAG    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2       8 TAGCAGATTCACTTGAGCCAAAGGATTCCAGGCCAGCCTGGAAACTAGAG     57
+
+Mouse_Hba_a1     201 CAAGACCTGCTCACATAAAAAGAGGAAAAGGAGAAAGAGGGAAAAGACAA    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2      58 CAAGACCTGCTCACATAAAAAGAGGAAAAGGAGAAAGAGGGAAAAGACAA    107
+
+Mouse_Hba_a1     251 GAAAGGAGGAGCCAGGGGAGGAGACAGTGGACAAAGAGGAAGAGAGAGGA    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     108 GAAAGGAGGAGCCAGGGGAGGAGACAGTGGACAAAGAGGAAGAGAGAGGA    157
+
+Mouse_Hba_a1     301 AAGAGGGGAGAAAAGAGAGAAAGAGAGTGTCTCTATGGGGTGCTAGCATC    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     158 AAGAGGGGAGAAAAGAGAGAAAGAGAGTGTCTCTATGGGGTGCTAGCATC    207
+
+Mouse_Hba_a1     351 TTATCCTACTTTATTTCATATCCAGGGGCTGGGGCTGAGGCCAGAAGCAG    400
+                     |||||||.||||||.|||||||||||||||||||||||||||||||    
+Mouse_Hba_a2     208 TTATCCTTCTTTATCTCATATCCAGGGGCTGGGGCTGAGGCCAGAA----    253
+
+Mouse_Hba_a1     401 GTTGTGGTTGAGAAAGGAAAGTGTGAAACAGGGACCCAGAGGGAGAGGTG    450
+                                   ||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     254 --------------AGGAAAGTGTGAAACAGGGACCCAGAGGGAGAGGTG    289
+
+Mouse_Hba_a1     451 GGGGGATGGGCGCTGCTCAGTTTGGTTTGAGGGACTTGCTTCTCTGACCA    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     290 GGGGGATGGGCGCTGCTCAGTTTGGTTTGAGGGACTTGCTTCTCTGACCA    339
+
+Mouse_Hba_a1     501 AGGTAGGAGGATACTAACTTCTTCCCAAACTGCCATCACTGGAGACGTAG    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     340 AGGTAGGAGGATACTAACTTCTTCCCAAACTGCCATCACTGGAGACGTAG    389
+
+Mouse_Hba_a1     551 TAAGGGGTAAGAAGTGTGTCCGGGCAACTGATAAGGATTCCCTGCACCCA    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     390 TAAGGGGTAAGAAGTGTGTCCGGGCAACTGATAAGGATTCCCTGCACCCA    439
+
+Mouse_Hba_a1     601 GGGGAAGCACAACCCAGCCCCAGAATCTCAGGGGCCCTAACAAGTTTTAC    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     440 GGGGAAGCACAACCCAGCCCCAGAATCTCAGGGGCCCTAACAAGTTTTAC    489
+
+Mouse_Hba_a1     651 TGGGTAGAGCAAGCACAAACCAGCCAATGAGAACTGCTCCAAGGGCGTGT    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     490 TGGGTAGAGCAAGCACAAACCAGCCAATGAGAACTGCTCCAAGGGCGTGT    539
+
+Mouse_Hba_a1     701 CCACCCTGCCTGGAGGACACGCCCTTGGAGGGCATATAAGTGCTACTTGC    750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     540 CCACCCTGCCTGGAGGACACGCCCTTGGAGGGCATATAAGTGCTACTTGC    589
+
+Mouse_Hba_a1     751 TGCAGGTCCAAGACACTTCTGATTCTGACAGACTCAGGAAGAAACCATGG    800
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     590 TGCAGGTCCAAGACACTTCTGATTCTGACAGACTCAGGAAGAAACCATGG    639
+
+Mouse_Hba_a1     801 TGCTCTCTGGGGAAGACAAAAGCAACATCAAGGCTGCCTGGGGGAAGATT    850
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     640 TGCTCTCTGGGGAAGACAAAAGCAACATCAAGGCTGCCTGGGGGAAGATT    689
+
+Mouse_Hba_a1     851 GGTGGCCATGGTGCTGAATATGGAGCTGAAGCCCTGGAAAGGTGAGAACA    900
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     690 GGTGGCCATGGTGCTGAATATGGAGCTGAAGCCCTGGAAAGGTGAGAACA    739
+
+Mouse_Hba_a1     901 GGACCTTGATCTGTAAGGATCACAGGATCCAATATGGACCTGGCACTCGC    950
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     740 GGACCTTGATCTGTAAGGATCACAGGATCCAATATGGACCTGGCACTCGC    789
+
+Mouse_Hba_a1     951 TCAGTGGGCAGCTTCTAACTATGCTTTTCTGTGACCTCAACTTCTCTTCT   1000
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     790 TCAGTGGGCAGCTTCTAACTATGCTTTTCTGTGACCTCAACTTCTCTTCT    839
+
+Mouse_Hba_a1    1001 CTCCTTCTCCCAGGATGTTTGCTAGCTTCCCCACCACCAAGACCTACTTC   1050
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     840 CTCCTTCTCCCAGGATGTTTGCTAGCTTCCCCACCACCAAGACCTACTTC    889
+
+Mouse_Hba_a1    1051 CCTCACTTTGATGTAAGCCACGGCTCTGCCCAGGTCAAGGGTCACGGCAA   1100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     890 CCTCACTTTGATGTAAGCCACGGCTCTGCCCAGGTCAAGGGTCACGGCAA    939
+
+Mouse_Hba_a1    1101 GAAGGTCGCCGATGCTCTGGCCAATGCTGCAGGCCACCTCGATGACCTGC   1150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     940 GAAGGTCGCCGATGCTCTGGCCAATGCTGCAGGCCACCTCGATGACCTGC    989
+
+Mouse_Hba_a1    1151 CCGGTGCCCTGTCTGCTCTGAGCGACCTGCATGCCCACAAGCTGCGTGTG   1200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2     990 CCGGTGCCCTGTCTGCTCTGAGCGACCTGCATGCCCACAAGCTGCGTGTG   1039
+
+Mouse_Hba_a1    1201 GATCCCGTCAACTTCAAGGTATGCGCTGGGACCTGGCAGGCGGCATCTGG   1250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2    1040 GATCCCGTCAACTTCAAGGTATGCGCTGGGACCTGGCAGGCGGCATCTGG   1089
+
+Mouse_Hba_a1    1251 GACCCCTAGGAAGGGCTTGGGGGTCCTCGTGCCCAAGGCAGGGAACATAG   1300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2    1090 GACCCCTAGGAAGGGCTTGGGGGTCCTCGTGCCCAAGGCAGGGAACATAG   1139
+
+Mouse_Hba_a1    1301 TGGTCCCAGGAAGGGGAGCAGAGGCATCAGGGTGTCCACTTTGTCTCCGC   1350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2    1140 TGGTCCCAGGAAGGGGAGCAGAGGCATCAGGGTGTCCACTTTGTCTCCGC   1189
+
+Mouse_Hba_a1    1351 AGCTCCTGAGCCACTGCCTGCTGGTGACCTTGGCTAGCCACCACCCTGCC   1400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2    1190 AGCTCCTGAGCCACTGCCTGCTGGTGACCTTGGCTAGCCACCACCCTGCC   1239
+
+Mouse_Hba_a1    1401 GATTTCACCCCCGCGGTGCATGCCTCTCTGGACAAATTCCTTGCCTCTGT   1450
+                     ||||||||||||||||||||||||||||||||.|||||||||||||||||
+Mouse_Hba_a2    1240 GATTTCACCCCCGCGGTGCATGCCTCTCTGGATAAATTCCTTGCCTCTGT   1289
+
+Mouse_Hba_a1    1451 GAGCACCGTGCTGACCTCCAAGTACCGTTAAGCTGCCTTCTGCGGGGCTT   1500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2    1290 GAGCACCGTGCTGACCTCCAAGTACCGTTAAGCTGCCTTCTGCGGGGCTT   1339
+
+Mouse_Hba_a1    1501 GCCTTCTGGCCATGCCCTTCTTCTCTCCCTTGCACCTGTACCTCTTGGTC   1550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2    1340 GCCTTCTGGCCATGCCCTTCTTCTCTCCCTTGCACCTGTACCTCTTGGTC   1389
+
+Mouse_Hba_a1    1551 TTTGAATAAAGCCTGAGTAGGAAGAAGCCTGCATGCCTGGTTCTCTGCGT   1600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2    1390 TTTGAATAAAGCCTGAGTAGGAAGAAGCCTGCATGCCTGGTTCTCTGCGT   1439
+
+Mouse_Hba_a1    1601 CTGCAAAGGTGTCATGTTTAGTGTGGGGATGCCTCTAGCTCATTTAGCCA   1650
+                     |||||||||||||||||||||||||||||.||.|||||||||||||||||
+Mouse_Hba_a2    1440 CTGCAAAGGTGTCATGTTTAGTGTGGGGACGCTTCTAGCTCATTTAGCCA   1489
+
+Mouse_Hba_a1    1651 TGGGGCAGTAAAGACAAGGTTCAGAGCAAAAAGCATAATTGGATGCCTAC   1700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2    1490 TGGGGCAGTAAAGACAAGGTTCAGAGCAAAAAGCATAATTGGATGCCTAC   1539
+
+Mouse_Hba_a1    1701 ACACACACATATGTCTTCTGAGTCTGGGCAGCAGTCCCTCCCAAGCCCTC   1750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2    1540 ACACACACATATGTCTTCTGAGTCTGGGCAGCAGTCCCTCCCAAGCCCTC   1589
+
+Mouse_Hba_a1    1751 CACTGACAGCCATGTGTCTTCTCCTTGAGCCAAAGAAGCCAAAGATCGTC   1800
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Mouse_Hba_a2    1590 CACTGACAGCCATGTGTCTTCTCCTTGAGCCAAAGAAGCCAAAGATCGTC   1639
+
+Mouse_Hba_a1    1801 TTTGGAGGGTCCTTATCACAGGTCCTCTGAGGGAATGAGCTCCTTAATAC   1850
+                     ||||||||||||||||||||||.|||||.|||||.|||.|||||||||..
+Mouse_Hba_a2    1640 TTTGGAGGGTCCTTATCACAGGCCCTCTCAGGGAGTGAACTCCTTAATGT   1689
+
+Mouse_Hba_a1    1851 CGCTGGTACTTCAGTGTGGGATCTATTAGAAAAACAGTGAAAAATAGACA   1900
+                     ||||||||||.||||||||||||||.||||||||||||||||||||||||
+Mouse_Hba_a2    1690 CGCTGGTACTCCAGTGTGGGATCTACTAGAAAAACAGTGAAAAATAGACA   1739
+
+Mouse_Hba_a1    1901 TCATATGAGCATATGGGTAGGCAACAGGTAGCTCATATAAAAATGCCTGC   1950
+                     |||.||||||||.|||||||||||..||||.|||||||||||||||||||
+Mouse_Hba_a2    1740 TCACATGAGCATGTGGGTAGGCAATGGGTAACTCATATAAAAATGCCTGC   1789
+
+Mouse_Hba_a1    1951 TCTTGCCCTCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTTCTTTCTTTC   2000
+                     |||||.||||||.|||||||||||||||.|.|||||||||.|||.||..|
+Mouse_Hba_a2    1790 TCTTGTCCTCTTTCTTCCTTCCTTCCTTTCATCCTTCCTTCCTTCCTCCC   1839
+
+Mouse_Hba_a1    2001 TTTCTT--------------------------TCTTTCTTTCTTTCTTTC   2024
+                     |..||.                          |||.|||.|||.|||.||
+Mouse_Hba_a2    1840 TCCCTCCCTCCCTCCCTCCCTCCCTCCCTCCCTCTCTCTCTCTCTCTCTC   1889
+
+Mouse_Hba_a1    2025 TTTCTTTCTTTCTTTCTTTCTTTCTTTCTTTCAGATAGAATTTCATGTAG   2074
+                     |.|||.||||||||||||||||||||||||||.. |....||||.| |..
+Mouse_Hba_a2    1890 TCTCTCTCTTTCTTTCTTTCTTTCTTTCTTTCTT-TCTCCTTTCTT-TCT   1937
+
+Mouse_Hba_a1    2075 CACAGTCTGGCCTCAAAAACGTTATATAGATAAGGATGGATGCCCTGAAA   2124
+                     ..|..|||..|..|.....|..|.|.|...|     |...|.|.||....
+Mouse_Hba_a2    1938 TTCTTTCTTTCTCCTTTCTCTCTTTCTTTCT-----TCTCTTCTCTCTCT   1982
+
+Mouse_Hba_a1    2125 CTCTTTTTTTTTTTTTTTTTTTTTTCCGAGA   2155
+                     ||||.|.|.|.|.|.|.|.|.|.|..|.   
+Mouse_Hba_a2    1983 CTCTCTCTCTCTCTCTCTCTCTGTCTCT---   2010
+
+
+#---------------------------------------
+#---------------------------------------
