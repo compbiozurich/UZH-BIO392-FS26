@@ -1,0 +1,47 @@
+# Exercise on Uniprot: find protein of interest
+- __Uniprot ID:__ P11940
+- __Protein Name:__ Polyadenylate-binding protein 1
+- __Length:__ 636
+- __Keywords:__ #RNA-binding, #Host-virus interaction, #mRNA processing, #mRNA splicing, #Nonsense-mediated mRNA decay
+- __Function:__ Binds the poly(A) tail of mRNA and regulates processes of mRNA metabolism such as pre-mRNA splicing and mRNA stability.
+- __Domains:__ 
+    - RRM1 (RNA Recognition Motiv): RNA binding domain 
+    - RRM2 (RNA Recognition Motiv): RNA binding domain 
+    - _The RNA-binding domains RRM1 and RRM2 and the C-terminus (last 138 amino acids) regions interact with the PABPC1-interacting motif-1 (PAM1) and -2 (PAM2) of PAIP1, respectively._
+    - RRM3 (RNA Recognition Motiv): RNA binding domain binds and recognizes ~ 5 Adenosine residues in PolyA tail
+    - RRM4 (RNA Recognition Motiv): RNA binding domain binds and recognizes ~ 5 Adenosine residues in PolyA tail
+    - _The RNA-binding domains RRM2 and RRM3 and the C-terminus (last 138 amino acids) regions interact with the PABPC1-interacting motif-1 (PAM1) and -2 (PAM2) of PAIP2, respectively._
+    - PABC (Poly(A)-binding protein C-terminal domain): binds a conserved motif of 12-15 amino acids, termed PABP-interacting motif (PAM)-2.
+- __Gene Ontology:__
+    - RNA binding: mRNA 3'-UTR binding, poly(A) binding, poly(U) RNA binding
+    - catabolic process: CRD-mediated mRNA stabilization, ....
+    - RNA metabolic process: CRD-mediated mRNA stabilization, mRNA splicing, via spliceosome, ...
+    - protein metabolic proces: positive regulation of cytoplasmic translation
+- __Mutations & Diseases:__
+    - When 2 point mutations, 455 R → A and 460 R → A are present: Greatly reduces methylation by CARM1 (in vitro)
+- __Sub-cellular location:__ Cytoplasm (7 Publications), Cytoplasm, Stress granule (3 Publications), Nucleus (2 Publications)
+- __PTMs:__
+    - between position 1 and 636 there are many PTMs
+    - They include: Methylations (by CARM1), Acetylations, Phosphorylations (by MAPKAPK2)
+    - Some common modified aminoacids include: Phosphothreonine, Phosphoserine, Omega-N-methylarginine, Ubiquitinated lysine, Acetyllysine
+- __Isoforms:__
+    - 2 isoforms produced by Alternative splicing.
+        - P11940-1 (canonical isoform)
+        - P11940-2
+        - Difference between the 2 isoforms: 447-535 missing in P11940-2
+    - Additionally there are 25 potential isoforms mapped to this entry.
+- __Orthologs:__
+    - Drosophila melanogaster: CG7903
+    - Drosophila melanogaster: CG12288
+    - Drosophila melanogaster: Sxl
+    - Drosophila melanogaster: ssx
+    - Drosophila melanogaster: shep
+    - Drosophila melanogaster: lark
+- __Paralogs:__
+    - PABPC3
+    - PABPC4
+    - PABPC1L
+    - PABPC4L
+    - PABPC5
+    - PUF60
+    - .... (many more)
