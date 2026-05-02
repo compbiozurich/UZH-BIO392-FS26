@@ -1,0 +1,2 @@
+A	/home/francesco/BIO392/notebook/output/haplotypecaller/A.g.vcf
+B	/home/francesco/BIO392/notebook/output/haplotypecaller/B.g.vcf
