@@ -1,3 +1,13 @@
+# ClinVar exercise 
+with an added somatic variant
+| Disease             | Description                              | Gene  | Example variant               | Mutation type | Functional effect                  |
+|--------------------|------------------------------------------|-------|-------------------------------|---------------|------------------------------------|
+| Hemochromatosis    | Excess iron accumulation                 | HJV   | NM_213653.3:c.959G>T          | Missense      | Likely LOF                         |
+| Thalassemia        | Reduced hemoglobin production            | HBB   | NM_000518.5:c.20A>T           | Nonsense      | Loss of function (LOF)             |
+| Cystic Fibrosis    | Thick mucus affecting lungs/digestion    | CFTR  | NM_000492.4:c.1521_1523delCTT | Deletion      | Loss of function (LOF)             |
+| Tay-Sachs disease  | GM2 ganglioside accumulation in neurons  | HEXA  | NM_000520.6:c.1278insTATC     | Insertion     | Loss of function (LOF)             |
+| Lung cancer (somatic) | Uncontrolled cell growth in lung tissue | EGFR  | NM_005228.5:c.2573T>G (L858R) | Missense      | Gain of function (oncogenic driver)|
+
 # Uniprot exercise
 - Uniprot ID: B1P0S1
 - Protein Name: Antifreete protein (Maxi type AFP)
