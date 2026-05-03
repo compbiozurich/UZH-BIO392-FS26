@@ -5,7 +5,7 @@ On protein level, there is no difference between HBA1 and HBA2. On ncbi both gen
 
 ### HBA1/2 vs HBB
 - The sequence identity between HBB and HBA1/2 is 33.3% (49/147 aminoacids were identical). That means.....
-- The sequence similarity is 46.9% (69/147 aminoacids were similar). This means ....
+- The sequence similarity is 46.9% (69/147 aminoacids were similar). 
 - There were 37 gaps (corresponding to 25.2%).
 - The overall score was __150__.
 
@@ -42,10 +42,39 @@ We can clearly see that the length of HBA1 & HBA2 are almost equal! However, HBB
 
 
 # Mus Musculus
+As there are many Mus musculus HB genes, I chose to compare _Hba-a1_, _Hba-a2_, _Hbb-b1_
 
 ## Protein level
+On protein level, _Hba-a1_ and _Hba-a2_ are the same!!
+
+### _Hba-a1_/_Hba-a2_ vs _Hbb-b1_
+- The sequence identity is 42.3% (63/149 aminoacids were identical). 
+- The sequence similarity is 57.0% (85/149 aminoacids were similar). 
+- There were 9 gaps (corresponding to 6.0%).
+- The overall score was __274__.
+
 
 
 ## DNA level
-https://www.ncbi.nlm.nih.gov/gene/3043/#genomic-regions-transcripts-products
-https://www.ebi.ac.uk/jdispatcher/psa/emboss_stretcher
+### _Hba-a1_ vs _Hba-a2_
+- The sequence identity is __95.8%__ (565/590 nucleotides were identical). 
+- The sequence similarity is __95.8%__ (565/590 nucleotides were similar). 
+- There were 24 gaps (corresponding to __4.1%__).
+- The overall score was __2701__.
+
+### _Hba-a1_ vs _Hbb-b1_
+- The sequence identity is __54.4%__ (350/643 nucleotides were identical). 
+- The sequence similarity is __54.4%__ (350/643 nucleotides were similar). 
+- There were 87 gaps (corresponding to __13.5%__).
+- The overall score was __314__.
+
+### _Hba-a2_ vs _Hbb-b1_
+- The sequence identity is __54.2%__ (348/642 nucleotides were identical). 
+- The sequence similarity is __54.2%__ (348/642 nucleotides were similar). 
+- There were 67 gaps (corresponding to __10.4%__).
+- The overall score was __336__.
+
+## Conclusion
+One can see that Hba-a1 and Hba-a2 are highly conserved genes, with almost identical DNA sequences, and identical proteins. This means they most likely have very similar biological fucntions.
+
+Hbb-b1 is more distanly related, (to both of them). One can see this in the much lower score: 336 & 314 compared to 2701 on DNA level. As well as the higher number of introduced gaps: 67 & 87 vs 24. This suggests, that Hbb-b1 has diverged from the alpha-globin genes.
