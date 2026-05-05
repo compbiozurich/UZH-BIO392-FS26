@@ -169,84 +169,41 @@ with an added somatic variant
 | Isoforms                     | Yes; multiple AFP types and isoforms exist                                  |
 | Orthologs / Paralogs         | Found in fish, insects, plants; paralogs from gene duplication              |
 
-### Exercise 4 - PDB Part 1
-> Read https://pdb101.rcsb.org/learn/exploring-the-structural-biology-of-health-and-nutrition
-> - Use one of them as your protein of interest
-> - Download the PDBx file, from the file
-> - Use this guide https://mmcif.wwpdb.org/docs/user-guide/guide.html
-> - Find information about the citation, sequence, composition of macromolecules, mutation if any
-> - Open the Structure Tab (3D viewer) Change the view to ball and stick,
-> - Add annotation of 3rd modeled amino acid residue (Gray is unmodeled)
+### PDB Part 1
 
-**Protein of interest: 3VCM**
-- PDB Link: https://www.rcsb.org/structure/3VCM
-
-**Citation**
-- Morales R, Watier Y, Bocskei Z. "Human Prorenin Structure Sheds Light on a Novel Mechanism of Its Autoinhibition and on Its Non-Proteolytic Activation by the (Pro)renin Receptor." J Mol Biol. 2012;421(1):100-111
-- PubMed: 22575890
-- DOI: https://doi.org/10.1016/j.jmb.2012.05.003
+**Protein of interest: 1CHM**
 
 **Experimental Summary**
 
 | Field            | Value                       |
 | ---------------- | --------------------------- |
 | Method           | X-ray diffraction           |
-| Resolution       | 2.93 Å                      |
-| Space group      | P 4(3) 2 2                  |
-| Cell (a, b, c)   | 104.42, 104.42, 237.12 Å    |
-| R-work / R-free  | 0.2118 / 0.2478             |
-| Released         | 2012-05-23 (rev 1.4, 2024)  |
+| Resolution       | 1.90 Å                      |
+| Space group      | P 12, 1                     |
+| Cell (a, b, c)   | 60.83, 110.55, 62.63 Å      |
+| R-work / R-free  | 0.177/ not reportet         |
+| Released         | 1993-07-19 (rev. 1.3, 2024) |
 
 **Macromolecule composition**
 
-| Entity | Type        | Description                              | UNP range | MW (Da)   | Copies | Chains |
+| Entity | Type        | Description                              | UniProt   | MW (Da)   | Copies | Chains |
 | ------ | ----------- | ---------------------------------------- | --------- | --------- | ------ | ------ |
-| 1      | polypeptide | Prorenin (mature renin region)           | 67-406    | 36 721.5  | 2      | A, B   |
-| 2      | polypeptide | Prorenin activation peptide              | 24-66     | 5 115.1   | 2      | P, Q   |
-| 3      | non-polymer | N-acetyl-β-D-glucosamine (NAG)           | -         | 221.2     | 1      | -      |
-| 4      | water       | H2O                                      | -         | 18.0      | 97     | -      |
+| 1      | polypeptide | Creatine amidinohydrolase (creatinase)   | P38488    | 45,000    | 2      | A, B   |
+| 2      | non-polymer | Carbamoyl sarcosine (CMS) — inhibitor    | -         | 132.1     | 2      | -      |
 
 **Sequence**
 ```text
-LTLGNTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVY
-HKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITVTQMFGEVTEMPALPFM
-LAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSLGGQIVLGGSDPQH
-YEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCEDGCLALVDTGASYISGSTSSIEKLMEA
-LGAKKRLFDYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKKLCTLAIHAMDI
-PPPTGPTWALGATFIRKFYTEFDRRNNRIGFALAR
+QMPKTLRIRNGDKVRSTFSAQEYANRQARLRAHLAAENIDAAIFTSYHNINYYSDFLYCSFGRPYALVVTEDDVISISANIDGG
+QPWRRTVGTDNIVYTDWQRDNYFAAIQQALPKARRIGIEHDHLNLQNRDKLAARYPDAELVDVAAACMRMRMIKSAEEHVMIR
+HGARIADIGGAAVVEALGDQVPEYEVALHATQAMVRAIADTFEDVELMDTWTWFQSGINTDGAHNPVTTRKVNKGDILSLNCF
+PMIAGYYTALERTLFLDHCSDDHLRLWQVNVEVHEAGLKLIKPGARCSDIARELNEIFLKHDVLQYRTFGYGHSFGTLSHYYG
+REAGLELREDIDTVLEPGMVVSMEPMIMLPEGLPGAGGYREHDILIVNENGAENITKFPYGPEKNIIR
 ```
 
 **Mutations**
-- `_entity.pdbx_mutation` field: not set
-- `_struct_ref_seq_dif`: an internal deletion of residues 232-236 (S-E-N-S-Q) in entity 1 (chains A and B), relative to canonical UNP P00797
+no mutations reportet
+no discrepancies noted
 
-#### 3D Viewer
-**Default View**
-![](./images/3VCN_Image_01.jpg)
-
-**Ball and Stick View**
-![](./images/3VCN_Image_02.jpg)
-
-**Annotated 3rd AA residue**
-![](./images/3VCN_Image_03.jpg)
-
-### Exercise 5 - PDB Part 2
-> Find the PDB entry of hemoglobin structure that is wild type and mutation
-> - Load them onto https://www.rcsb.org/3d-view/
-> - Select by Chain (default: Residue)
-> - Superimpose the mutated and wild type chain.
-> - Look at the structural difference
-
-**Selected Proteins**
-- Hemoglobin (wild type): [2DN2](https://www.rcsb.org/structure/2DN2)
-- Hemoglobin (mutation, sickle cell): [2HBS](https://www.rcsb.org/structure/2HBS)
-
-![](./images/2DN2_2HBS_Image_01.jpg) 
-
-Now looking only at the mutated B chain: 
-- Orange: wild type (2DN2)
-- Blue: mutation (2HBS)
-
-_This view was created using [PDB Aligment](https://www.rcsb.org/alignment) and TM align._
-
-![](./images/2DN2_2HBS_Image_02.jpg) 
+**Biological Assembly**
+Homo 2-mer (A₂), cyclic C2 symmetry
+Total structure weight: 90.93 kDa; 6,786 atoms; 802 modelled residues
