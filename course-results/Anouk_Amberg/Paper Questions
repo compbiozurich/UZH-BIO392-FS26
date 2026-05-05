@@ -1,0 +1,51 @@
+# Paper Questions #
+
+## 1. Why is it important to construct a CNV map on healthy individuals of various ethnicities?
+
+Having a database consisting of CNV variants of healthy individuals allows comparisions to the CNV variants of sick individuals. This might allow to identify maladaptive CNVs associated with various diseases and conditions. However, many CNVs are not disease-related but rather part of a variance occuring in healthy individuals. To find disease-related CNVs, this map poses useful as comparision tool.
+
+## 2. What is the CNV size that the authors define?
+
+A CNV is somewhat arbitrary defined. In this article, variants with their size ranging from **50 bp to 3Mb** were included as a CNV.
+
+## 3. What are the primary approaches used for CNV detection? Advantages and limitations of these techniques?
+
+Two approaches are used to detect CNVs: **Microarrays** and **Next-generation sequencing (NGS)**.
+
+- **Microarrays**: Microarrays are mainly used to study quantitative variants. However, a downside of this method is, that it misses small variants. Thus, its sensitivity is relatively low. Additionally, this method tends to favour the detection of deletions.
+
+- **NGS**: Sequencing-based methods can detect smaller variants. Still, the same problem as with microarrays persists: namely, the bias towards deletions. In comparision to array-approaches, the resolution is higher with this method.
+
+## 4. The authors used clustering method to combine data from different studies into merged CNVRs (Copy Number Variable Regions). What are the two criteria for cluster filtering?
+
+- **50% reciprocal overlap**: every possible variant pair needed at least 50% reciprocal overlap to be merged together.
+
+- **Filter based on number of subjects**: The clusters were filtered to exclude singletons and artefacts. This means, that only variants supported by a larger sumber of subjects were included. 
+
+## 5. What are thresholds in stringency level 1, inclusive map (stringency level 2), and stringent map (stringency level 12) respectively?
+
+- **Stringency level 1**: CNVRs found in at least one subject and one study
+
+- **Stringency level 2**: CNVRs found in at least two subjects and one study for each variant
+
+- **Stringency level 12**: CNVRs found in at least two subjects and two studies
+
+In general it can be said, that with higher stringency level, **CNVRs are supported by higher number of individuals and were observed by more studies**. 
+
+## 6. Which percentage of the genome contributes to CNV in inclusive map and stringent map?
+
+In the **inclusive map** 9.5% of the human genome is involved in losses or gains. In the **stringent map** the total genomic variability was 4.8%. 
+
+## 7. Which kind of genes are more variable between protein-coding and non-coding genes? How about their findings in the paper?
+
+I would expect the genomic variability of the CNVs to be higher in non-coding genes. Changes in these genes will not lead to any fitness-related defects. On the other hand, changes in protein-coding genes could lead to impaired function and thus potential lethality. 
+
+## 8. The authors generated a null CNV map and found genes for which at least 85% of the exons were homozygous deleted. What are the functions of these genes? And why did the authors say that they seem to be non-essential?
+
+Although these genes have lost most of their exons, they are missing in healthy individuals. From this, the authors condluded that these genes must be non-essential (otherwise people with this variant would not be healthy). 
+
+The genes could be redundant (duplicants). They could also be linked to age-related phenotypes, which would not reduce the individuals fitness.
+
+## 9. How can this map be used as a tool to assess the clinical  importance of a CNV?
+
+To asses the clinical importance of a specific CNV, clinicians and researchers can first search if the CNV is included among the CNVRs of the CNV map. If so, it can be checked if the area of the CNV overlaps with a medically relevant gene. 
