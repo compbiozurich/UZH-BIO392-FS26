@@ -1,0 +1,2 @@
+/notebook/B_part/notebook/output/haplotypecaller/A.g.vcf
+/notebook/B_part/notebook/output/haplotypecaller/B.g.vcf
