@@ -1,0 +1,2 @@
+A	/Users/lloyd/Desktop/notebook/B_part/notebook/output/haplotypecaller/A.g.vcf
+B	/Users/lloyd/Desktop/notebook/B_part/notebook/output/haplotypecaller/B.g.vcf
