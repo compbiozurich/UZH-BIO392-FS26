@@ -4,12 +4,10 @@ Fill the table below
 |Disease | Description description | Gene| Example variant| Mutation type| Functional eﬀect|
 |-------|--------|-----|----|------|--------|
 |Hemochromatosis|Excess iron absorption|HJV|NM_213653.3:c.959G>T|Missense|Likely LOF|
-|Thalassemia||||||
-|Cystic Fibrosis||||||
-|Tay-Sachs disease||||||
-
-
-
+|Thalassemia|Reduced/absent β-globin synthesis| HBB | NM_000518.5:c.118C>T (p.Gln40Ter) | Nonsense | Likely LOF|
+|Cystic Fibrosis| Defective chloride/bicarbonate transport across epithelia | CFTR | NM_000492.3(CFTR):c.1521_1523del (p.Phe508del)  | In-frame deletion | Likely LOF |
+|Tay-Sachs disease| Hexosaminidase activator deficiency, GM2 activator deficiency | HEXA | NM_000520.6:c.1274_1277dupTATC | Frameshift (duplication) | Likely LOF |
+|
 
 
 Above are germline variants. Find a variant that would fit oncogenicity & clinical impact for somatic variants
